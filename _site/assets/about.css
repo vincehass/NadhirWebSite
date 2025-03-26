@@ -1,4 +1,4 @@
-@import url(silvia/colors.scss);
+@import url(nadhir/colors-light.scss);
 
 /* title and subtitle */
 #title-block-header {
@@ -7,7 +7,7 @@
 
 /* see all links */
 .about-links.subtitle {
-  font-family: "Red Hat Text"
+  font-family: "Red Hat Text";
 }
 
 /* social links: block of links */
@@ -20,7 +20,7 @@
 /* social links: individual links */
 .about-entity .about-link {
   padding: 0.25em 0.25em !important;
-  border: none !important;  
+  border: none !important;
 }
 
 /* about area */
@@ -38,9 +38,12 @@
     display: flex;
     flex-wrap: wrap;
   }
-  
+
   /* listings */
-  #blog, #talks, #publications, #projects {
+  #blog,
+  #talks,
+  #publications,
+  #projects {
     flex-basis: 40% !important;
     flex-grow: 1;
   }
@@ -53,7 +56,6 @@
 
 /* mobile query up for screens up to ~576px wide */
 @media screen and (max-width: 576px) {
-
   /* wrap about me section */
   #about-me .grid {
     display: flex;
@@ -67,7 +69,10 @@
   }
 
   /* listings */
-  #blog, #talks, #publications, #projects {
+  #blog,
+  #talks,
+  #publications,
+  #projects {
     flex-basis: 100% !important;
   }
 

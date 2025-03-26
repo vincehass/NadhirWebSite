@@ -1,11 +1,23 @@
-# Personal website for<br>Silvia Canelón <a href='https://silvia.rbind.io'><img src='https://github.com/spcanelon/silvia/assets/49913337/d9aa4577-983e-4423-932d-9836bf60c4f4' align="right" height="180" alt=''/></a>
+# Nadhir Vincent Hass - Personal Website
 
-👋 Hello, and welcome to the repo for [my personal website](https://silvia.rbind.io)!
+This is the repository for my personal website built with Quarto.
 
-This version was made using [Quarto](https://quarto.org/) and inspired by the [Hugo Apéro theme](https://hugo-apero-docs.netlify.app/).
+The site showcases my work as a Data Scientist and Machine Learning Engineer, featuring my publications, projects, and professional background.
 
-I keep this repository public so that people can repo-dive and learn how to recreate what they like for their own site. This is how I learned! 🙌
+## Website Structure
 
-In return, I only ask that you avoid duplicating my site for yourself without permission. A lot of thought went into making my site unique to me and your site deserves to reflect your own unique style too!
+- **About**: Information about my background, skills, and experience
+- **Blog**: Articles and thoughts on machine learning, AI, and data science
+- **Publications**: My research publications and academic work
+- **Projects**: Featured projects demonstrating my technical expertise
+- **Talks**: Presentations and speaking engagements
 
-Thanks and happy repo-diving! 🤿 <a href='https://app.netlify.com/sites/silvia/deploys'><img src='https://api.netlify.com/api/v1/badges/4d7dccd9-ec21-47eb-b218-34cb5b768883/deploy-status' align="right" height="20" alt='Netlify Status'/></a>
+## Technologies Used
+
+- [Quarto](https://quarto.org/) for site generation
+- HTML/CSS/JavaScript for front-end components
+- R for data processing and visualization components
+
+## Contact
+
+Feel free to reach out to me at [nadhir@example.com](mailto:nadhir@example.com) or connect with me on [LinkedIn](https://linkedin.com/in/nadhir-vincent-hass-216391aa).

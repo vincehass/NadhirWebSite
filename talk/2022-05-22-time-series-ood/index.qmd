@@ -1,0 +1,64 @@
+---
+title: "Woods: Benchmarking Out-of-Distribution Generalization in Time Series"
+subtitle: "Workshop Presentation at ICLR 2022"
+description: |
+  A presentation introducing our benchmark suite for evaluating out-of-distribution generalization in time series forecasting models.
+date: 2022-05-22
+categories:
+  - Workshop
+  - Time Series
+  - Benchmarking
+  - Out-of-Distribution
+image: featured.jpg
+image-alt: "Presenter explaining time series benchmarking concepts at ICLR workshop"
+---
+
+## Presentation Overview
+
+In this workshop presentation at ICLR 2022, I introduced Woods, our comprehensive benchmark suite designed to evaluate out-of-distribution generalization in time series forecasting models.
+
+## Abstract
+
+Time series forecasting models deployed in real-world environments often encounter significant distribution shifts, leading to performance degradation. Despite the critical importance of robust time series forecasting, there has been no standardized way to evaluate and compare how models generalize under distribution shifts.
+
+In this talk, I presented Woods, our collection of curated real-world time series datasets and evaluation framework specifically designed to assess model robustness to various types of distribution shifts. Our benchmark includes diverse domains such as healthcare, energy, finance, and ecology, with carefully designed train/validation/test splits that represent realistic deployment scenarios.
+
+I also shared results from evaluating several state-of-the-art time series models on Woods, demonstrating significant performance degradation under distribution shifts and highlighting the need for developing more robust forecasting methods.
+
+## Key Points Covered
+
+- The critical challenge of distribution shifts in time series forecasting
+- Types of distribution shifts commonly encountered in real-world applications
+- Introduction to the Woods benchmark suite and evaluation framework
+- Performance comparison of current state-of-the-art models under distribution shifts
+- Recommendations for developing more robust time series models
+- Future directions for research in robust time series forecasting
+
+## Impact and Reception
+
+The presentation generated significant interest from both academic and industry practitioners working on time series forecasting. The benchmark has since been adopted by several research groups for evaluating new forecasting methods, with the paper receiving numerous citations.
+
+## Slides and Materials
+
+- [Presentation Slides (PDF)](#)
+- [Workshop Paper](https://arxiv.org/abs/2203.09978)
+- [Benchmark Repository](https://github.com/time-series-benchmarks/woods)
+- [Dataset Documentation](https://time-series-benchmarks.github.io/woods/)
+
+## Related Work
+
+This presentation builds on existing research in out-of-distribution generalization and time series forecasting:
+
+- Oreshkin, B.N., et al. (2020). N-BEATS: Neural basis expansion analysis for interpretable time series forecasting. ICLR.
+- Benidis, K., et al. (2022). Neural forecasting: Introduction and best practices. arXiv preprint.
+
+## Citation
+
+```bibtex
+@article{gagnon2022woods,
+  title={Woods: Benchmarks for Out-of-Distribution Generalization in Time Series},
+  author={Gagnon-Audet, Jean-Christophe and Ahuja, Kartik and Darvishi-Bayazi, Mohammad Javad and Mousavi, Parisa and Dumas, Guillaume and Hass, Nadhir and others},
+  journal={arXiv preprint arXiv:2203.09978},
+  year={2022}
+}
+``` 

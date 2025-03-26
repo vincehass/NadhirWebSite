@@ -1,37 +1,40 @@
 ---
-title: Publications
+title: "Publications"
 description: |
-  This is home for my research publications, each linked with accompanying preprints, posters, and/or news pieces.
-author: "Silvia Canelón"
-show_post_thumbnail: false
-thumbnail_left: true # for list-sidebar only
-show_author_byline: true
-show_post_date: true
-# for listing page layout
-layout: list # list, list-sidebar, list-grid
-
-# for list-sidebar layout
-sidebar: 
-  title: Blog
-  description: |
-    A home for my research publications.
-    
-  author: "Silvia Canelón"
-  text_link_label: Subscribe via RSS
-  text_link_url: /index.xml
-  show_sidebar_adunit: true # show ad container
-
-# set up common front matter for all pages inside publication/
-cascade:
-  author: "Silvia Canelón"
-  show_author_byline: true
-  show_post_date: true
-  show_comments: false # see site config to choose Disqus or Utterances
-  # for single-sidebar layout
-  sidebar:
-    text_link_label: View recent posts
-    text_link_url: /publication/
-    show_sidebar_adunit: false # show ad container
+  My research publications
+date: 2023-10-01
+image: featured.jpg
+image-alt: |
+  Blue abstract design representing machine learning and AI concepts
+toc: true
+categories:
+  - machine learning
+  - deep learning
+  - time series forecasting
+  - generative models
+  - bayesian optimization
 ---
 
-** No content below YAML for the blog _index. This file provides front matter for the listing page layout and sidebar content. It is also a branch bundle, and all settings under `cascade` provide front matter for all pages inside blog/. You may still override any of these by changing them in a page's front matter.**
+## Publications
+
+My research focuses on developing innovative machine learning methods with a particular emphasis on **time series forecasting**, **generative models**, and **Bayesian optimization**. I work on creating efficient, scalable solutions for complex real-world problems while advancing the theoretical foundations of machine learning.
+
+### Featured Research
+
+- **Time Series Forecasting and Generalization**: My work on the Woods benchmark provides standardized evaluation of models under distribution shifts, a critical challenge in real-world applications.
+
+- **Generative Flow Networks (GFNs)**: I contribute to the development of GFNs for various applications, including improved regularization techniques for deep neural networks.
+
+- **Bayesian Optimization**: My research explores efficient hyperparameter tuning for neural networks using approximate Bayesian methods.
+
+### Journal Articles and Conference Papers
+
+- JC Gagnon-Audet, K Ahuja, MJ Darvishi-Bayazi, P Mousavi, G Dumas, **N Hass**, et al. (2022). "Woods: Benchmarks for Out-of-Distribution Generalization in Time Series." _arXiv preprint arXiv:2203.09978_. _(Cited by 47)_
+
+- D Liu, M Jain, BFP Dossou, Q Shen, S Lahlou, A Goyal, **N Hass**, et al. (2023). "GFlowOut: Dropout with Generative Flow Networks." _International Conference on Machine Learning (ICML)_, 21715-21729. _(Cited by 24)_
+
+- **N Hass**, I Rish (2021). "Approximate Bayesian Optimisation for Neural Networks." _arXiv preprint arXiv:2108.12461_. _(Cited by 2)_
+
+### Current Research Focus
+
+I am currently exploring the intersection of generative models and reinforcement learning, with applications in sequential decision making and time series analysis. I am also interested in developing scalable methods for uncertainty quantification in deep learning models.

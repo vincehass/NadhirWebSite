@@ -1,36 +1,23 @@
 ---
-title: "Meeting People Where They R"
-description: |
-  This is my blog where I practice sharing my curiosity about R.<br>
-  It includes notes and tutorials for my future self and hopefully also for you.<br><br>
-  {{< fa envelope >}} Sign up for my [newsletter](/contact.html#buttondown) to receive updates about new posts.
-listing: 
-  contents: 
-    - "**/index.qmd"
-    - "**/index.markdown" 
-    - "**/index.md"
-  sort: "date desc"
-  type: default
-  categories: false
-  sort-ui: false
-  filter-ui: false
-  fields: [title, author, categories, date, image]
-  image-placeholder: sidebar.jpg
-  image-align: right
-  # page-size: 5
-  feed:
-    categories: [R]
-citation: false
-toc: false
-comments: false
-format: 
-  html: 
-    page-layout: full
-title-block-banner: false
-
-header-includes: >
-  <link rel="stylesheet" href="../assets/listing-default.css">
-resources:
-  - ../assets/listing-default.css 
-include-after-body: ../assets/silvia/subscribe.html
+title: "Blog"
+subtitle: "Thoughts on Machine Learning, AI, and Data Science"
+listing:
+  - id: posts
+    contents: "**/index.qmd"
+    sort: "date desc"
+    type: grid
+    categories: true
+    sort-ui: true
+    filter-ui: true
+    fields: [date, title, reading-time, description, categories, image]
+    date-format: "YYYY-MM-DD"
+    image-height: "100%"
+page-layout: full
 ---
+
+## Blog Posts
+
+I write about various topics in machine learning, artificial intelligence, and data science. My posts range from theoretical concepts to practical tutorials, with a focus on deep learning, time series forecasting, generative models, and Bayesian methods.
+
+::: {#posts}
+:::

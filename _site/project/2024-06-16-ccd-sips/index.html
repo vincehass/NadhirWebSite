@@ -2,12 +2,12 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.6.39">
+<meta name="generator" content="quarto-1.4.550">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 <meta name="author" content="Silvia Canelón">
 <meta name="author" content="Mallori Lofton-Malachi">
 <meta name="dcterms.date" content="2024-06-16">
-<title>Philly Center City District SIPS: An Interactive Map – Silvia Canelón</title>
+<title>Philly Center City District SIPS: An Interactive Map</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -29,7 +29,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../../">
-<link href="../../assets/silvia/img/logo_rounded.svg" rel="icon" type="image/svg+xml">
+<link href="../../assets/nadhir/img/logo_rounded.svg" rel="icon" type="image/svg+xml">
 <script src="../../site_libs/quarto-listing/list.min.js"></script>
 <script src="../../site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="../../site_libs/quarto-html/quarto.js"></script>
@@ -37,12 +37,12 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-4798f49a90c852830ec6262f6cac104c.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark-ba45ce9dc5cd1a65c393561f93ac8f81.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap-ee1fb94ed73a03fd99aafc7557ba3b54.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../../site_libs/bootstrap/bootstrap-dark-b46977b051dc0d7981d6964f332a6c3e.min.css" rel="prefetch" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
 <link href="../../site_libs/quarto-contrib/fontawesome6-1.2.0/all.min.css" rel="stylesheet">
 <link href="../../site_libs/quarto-contrib/fontawesome6-1.2.0/latex-fontsize.css" rel="stylesheet">
 <link href="../../site_libs/quarto-contrib/academicons-1.9.2/all.css" rel="stylesheet">
@@ -103,13 +103,18 @@ ul.task-list li input[type="checkbox"] {
       window['quarto-listing-loaded']();
     }
   })
-  </script><!-- umami cloud --><script async="" src="https://analytics.umami.is/script.js" data-website-id="6ba73b87-31aa-44ac-8d5e-e0dad5760753" data-do-not-track="true">
-</script><link href="../../site_libs/htmltools-fill-0.5.8.1/fill.css" rel="stylesheet">
+  </script><style>
+
+      .quarto-title-block .quarto-title-banner {
+        background: #EDF3F9;
+      }
+</style>
+<!-- Umami Analytics --><!-- Replace this with your actual Umami script when ready to deploy --><script async="" defer="" data-website-id="place-your-website-id-here" src="https://analytics.example.com/umami.js"></script><link href="../../site_libs/htmltools-fill-0.5.8.1/fill.css" rel="stylesheet">
 <script src="../../site_libs/htmlwidgets-1.6.4/htmlwidgets.js"></script><link href="../../site_libs/datatables-css-0.0.0/datatables-crosstalk.css" rel="stylesheet">
 <script src="../../site_libs/datatables-binding-0.33/datatables.js"></script><script src="../../site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script><link href="../../site_libs/dt-core-1.13.6/css/jquery.dataTables.min.css" rel="stylesheet">
 <link href="../../site_libs/dt-core-1.13.6/css/jquery.dataTables.extra.css" rel="stylesheet">
 <script src="../../site_libs/dt-core-1.13.6/js/jquery.dataTables.min.js"></script><link href="../../site_libs/crosstalk-1.2.1/css/crosstalk.min.css" rel="stylesheet">
-<script src="../../site_libs/crosstalk-1.2.1/js/crosstalk.min.js"></script><script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script><script type="text/javascript">
+<script src="../../site_libs/crosstalk-1.2.1/js/crosstalk.min.js"></script><script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script><script type="text/javascript">
 const typesetMath = (el) => {
   if (window.MathJax) {
     // MathJax Typeset
@@ -137,9 +142,9 @@ window.Quarto = {
 </script>
 <meta name="twitter:title" content="Philly Center City District SIPS: An Interactive Map">
 <meta name="twitter:description" content="A collection of interactive maps showing restaurants participating in Philly’s CCD SIPS">
-<meta name="twitter:image" content="https://silviacanelon.com/project/2024-06-16-ccd-sips/featured.png">
-<meta name="twitter:creator" content="@spcanelon">
-<meta name="twitter:site" content="@spcanelon">
+<meta name="twitter:image" content="https://nadhirvincent.com/project/2024-06-16-ccd-sips/featured.png">
+<meta name="twitter:creator" content="@nadhirvincent">
+<meta name="twitter:site" content="@nadhirvincent">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:image-height" content="628">
 <meta name="twitter:image-width" content="1200">
@@ -149,14 +154,14 @@ window.Quarto = {
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top quarto-banner"><nav class="navbar navbar-expand-lg " data-bs-theme="dark"><div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a href="../../index.html" class="navbar-brand navbar-brand-logo">
-    <img src="../../assets/silvia/img/logo_rounded.svg" alt="" class="navbar-logo"></a>
-    <a class="navbar-brand" href="../../index.html">
-    <span class="navbar-title">Silvia Canelón</span>
+    <a href="../../" class="navbar-brand navbar-brand-logo">
+    <img src="../../assets/nadhir/img/logo_rounded.svg" alt="" class="navbar-logo"></a>
+    <a class="navbar-brand" href="../../">
+    <span class="navbar-title">Nadhir Vincent Hass</span>
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
@@ -183,8 +188,8 @@ window.Quarto = {
   </li>  
 </ul>
 </div> <!-- /navcollapse -->
-            <div class="quarto-navbar-tools">
-    <a href="https://www.github.com/spcanelon/silvia" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-github"></i></a>
+          <div class="quarto-navbar-tools">
+    <a href="https://www.github.com/vincehass" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-github"></i></a>
   <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
 </div>
       </div> <!-- /container-fluid -->
@@ -225,7 +230,7 @@ window.Quarto = {
     <div>
     <div class="quarto-title-meta-heading">Modified</div>
     <div class="quarto-title-meta-contents">
-      <p class="date-modified">March 2, 2025</p>
+      <p class="date-modified">March 26, 2025</p>
     </div>
   </div>
     
@@ -319,8 +324,8 @@ width: 100%;
 </section><section id="table-view" class="level2"><h2 class="anchored" data-anchor-id="table-view">Table view</h2>
 <div class="cell">
 <div class="cell-output-display">
-<div class="datatables html-widget html-fill-item" id="htmlwidget-037d4fbe028bb17de62f" style="width:100%;height:auto;"></div>
-<script type="application/json" data-for="htmlwidget-037d4fbe028bb17de62f">{"x":{"filter":"none","vertical":false,"data":[["<a href='https://centercityphila.org/explore-center-city/ccd-sips/sips-list-view?page=1#1225-raw-sushi-and-sake-lounge'>1225 Raw Sushi and Sake Lounge<\/a>","<a href='https://centercityphila.org/explore-center-city/ccd-sips/sips-list-view?page=1#13-patio'>13 Patio<\/a>","<a href='https://centercityphila.org/explore-center-city/ccd-sips/sips-list-view?page=1#1518-bar-and-grill'>1518 Bar and Grill<\/a>","<a href='https://centercityphila.org/explore-center-city/ccd-sips/sips-list-view?page=1#air-grill-garden-dilworth-park'>Air Grille at Dilworth Park (Please note: Not participating on Wednesday, June 19)<\/a>","<a href='https://centercityphila.org/explore-center-city/ccd-sips/sips-list-view?page=1#alimentari-at-di-bruno-bros-rittenhouse'>Alimentari at Di Bruno Bros. Rittenhouse (Please note: Closed on Wednesday, June 19)<\/a>","<a href='https://centercityphila.org/explore-center-city/ccd-sips/sips-list-view?page=1#amuse'>aMuse<\/a>","<a href='https://centercityphila.org/explore-center-city/ccd-sips/sips-list-view?page=1#artbar-at-sonesta-hot'>ArtBar at Sonesta Hotel<\/a>","<a href='https://centercityphila.org/explore-center-city/ccd-sips/sips-list-view?page=1#attico-rooftop-please-note-not-participating-on-wednesday-june-19'>Attico Rooftop (Please note: Not participating on Wednesday, June 19)<\/a>","<a href='https://centercityphila.org/explore-center-city/ccd-sips/sips-list-view?page=1#bank-and-bourbon'>Bank and Bourbon<\/a>","<a href='https://centercityphila.org/explore-center-city/ccd-sips/sips-list-view?page=1#bar-bombon'>Bar Bombon<\/a>","<a href='https://centercityphila.org/explore-center-city/ccd-sips/sips-list-view?page=1#bar-lesieur'>Bar Lesieur<\/a>","<a href='https://centercityphila.org/explore-center-city/ccd-sips/sips-list-view?page=1#bar-ly-chinatown'>Bar-Ly Chinatown<\/a>","<a href='https://centercityphila.org/explore-center-city/ccd-sips/sips-list-view?page=1#barbuzzo'>Barbuzzo<\/a>","<a href='https://centercityphila.org/explore-center-city/ccd-sips/sips-list-view?page=1#barra-rossa'>Barra Rossa<\/a>","<a href='https://centercityphila.org/explore-center-city/ccd-sips/sips-list-view?page=1#barstool-sansom-street'>Barstool Sansom Street<\/a>","<a href='https://centercityphila.org/explore-center-city/ccd-sips/sips-list-view?page=1#the-black-sheep'>The Black Sheep<\/a>","<a href='https://centercityphila.org/explore-center-city/ccd-sips/sips-list-view?page=1#bodega-taco-bar'>Bodega Taco Bar<\/a>","<a href='https://centercityphila.org/explore-center-city/ccd-sips/sips-list-view?page=1#brü-craft-wurst'>Brü Craft & Wurst<\/a>","<a href='https://centercityphila.org/explore-center-city/ccd-sips/sips-list-view?page=1#bud-marilyns'>Bud & Marilyn's<\/a>","<a href='https://centercityphila.org/explore-center-city/ccd-sips/sips-list-view?page=1#butcher-bar'>Butcher Bar<\/a>","<a href='https://centercityphila.org/explore-center-city/ccd-sips/sips-list-view?page=2#capriccio-café-and-bar'>Capriccio Café and Bar<\/a>","<a href='https://centercityphila.org/explore-center-city/ccd-sips/sips-list-view?page=2#caribou-café'>Caribou Café<\/a>","<a href='https://centercityphila.org/explore-center-city/ccd-sips/sips-list-view?page=2#the-cauldron-philly'>The Cauldron Philly<\/a>","<a href='https://centercityphila.org/explore-center-city/ccd-sips/sips-list-view?page=2#cavanaugh-s-rittenhouse'>Cavanaugh's Rittenhouse<\/a>","<a href='https://centercityphila.org/explore-center-city/ccd-sips/sips-list-view?page=2#chris-jazz-cafe'>Chris' Jazz Cafe<\/a>","<a href='https://centercityphila.org/explore-center-city/ccd-sips/sips-list-view?page=2#city-tap-house-logan-square'>City Tap House Logan Square<\/a>","<a href='https://centercityphila.org/explore-center-city/ccd-sips/sips-list-view?page=2#con-murphy-s-irish-pub'>Con Murphy's Irish Pub<\/a>","<a href='https://centercityphila.org/explore-center-city/ccd-sips/sips-list-view?page=2#continental-midtown-2'>Continental Midtown<\/a>","<a href='https://centercityphila.org/explore-center-city/ccd-sips/sips-list-view?page=2#darling-jack-s-tavern'>Darling Jack's Tavern<\/a>","<a href='https://centercityphila.org/explore-center-city/ccd-sips/sips-list-view?page=2#devil-s-alley'>Devil's Alley<\/a>","<a href='https://centercityphila.org/explore-center-city/ccd-sips/sips-list-view?page=2#devon-seafood-grill'>Devon Seafood Grill<\/a>","<a href='https://centercityphila.org/explore-center-city/ccd-sips/sips-list-view?page=2#di-brunos-the-franklin'>Di Bruno's - The Franklin<\/a>","<a href='https://centercityphila.org/explore-center-city/ccd-sips/sips-list-view?page=2#dim-sum-house-by-jane-g-s'>Dim Sum House by Jane G's<\/a>","<a href='https://centercityphila.org/explore-center-city/ccd-sips/sips-list-view?page=2#dolce-italian'>Dolce Italian<\/a>","<a href='https://centercityphila.org/explore-center-city/ccd-sips/sips-list-view?page=2#doubleknot'>Double Knot<\/a>","<a href='https://centercityphila.org/explore-center-city/ccd-sips/sips-list-view?page=2#drinker-s-pub'>Drinker's Pub<\/a>","<a href='https://centercityphila.org/explore-center-city/ccd-sips/sips-list-view?page=2#drury-beer-garden-dbg'>Drury Beer Garden (DBG)<\/a>","<a href='https://centercityphila.org/explore-center-city/ccd-sips/sips-list-view?page=2#elephant'>Elephant<\/a>","<a href='https://centercityphila.org/explore-center-city/ccd-sips/sips-list-view?page=2#finn-mccools-ale-house'>Finn McCools Ale House<\/a>","<a href='https://centercityphila.org/explore-center-city/ccd-sips/sips-list-view?page=2#flambo-caribbean-restaurant'>Flambo Caribbean Restaurant<\/a>","<a href='https://centercityphila.org/explore-center-city/ccd-sips/sips-list-view?page=3#franklin-mortgage-investment-company'>The Franklin Mortgage & Investment Company<\/a>","<a href='https://centercityphila.org/explore-center-city/ccd-sips/sips-list-view?page=3#giuseppe-and-sons'>Giuseppe and Sons<\/a>","<a href='https://centercityphila.org/explore-center-city/ccd-sips/sips-list-view?page=3#the-goat-rittenhouse'>The Goat Rittenhouse<\/a>","<a href='https://centercityphila.org/explore-center-city/ccd-sips/sips-list-view?page=3#gran-caffe-l-aquila'>Gran Caffe L'Aquila<\/a>","<a href='https://centercityphila.org/explore-center-city/ccd-sips/sips-list-view?page=3#hard-rock-cafe'>Hard Rock Cafe<\/a>","<a href='https://centercityphila.org/explore-center-city/ccd-sips/sips-list-view?page=3#harp-crown1'>Harp & Crown<\/a>","<a href='https://centercityphila.org/explore-center-city/ccd-sips/sips-list-view?page=3#the-hayes'>The Hayes<\/a>","<a href='https://centercityphila.org/explore-center-city/ccd-sips/sips-list-view?page=3#hi-lo-taco'>Hi-lo Taco Co.<\/a>","<a href='https://centercityphila.org/explore-center-city/ccd-sips/sips-list-view?page=3#high-street'>High Street<\/a>","<a href='https://centercityphila.org/explore-center-city/ccd-sips/sips-list-view?page=3#howl-at-the-moon'>Howl at the Moon<\/a>","<a href='https://centercityphila.org/explore-center-city/ccd-sips/sips-list-view?page=3#independence-beer-garden'>Independence Beer Garden<\/a>","<a href='https://centercityphila.org/explore-center-city/ccd-sips/sips-list-view?page=3#iron-hill-brewery-restaurant'>Iron Hill Brewery & Restaurant<\/a>","<a href='https://centercityphila.org/explore-center-city/ccd-sips/sips-list-view?page=3#kook-burger-bar'>Kook Burger & Bar<\/a>","<a href='https://centercityphila.org/explore-center-city/ccd-sips/sips-list-view?page=3#ladder-15'>Ladder 15<\/a>","<a href='https://centercityphila.org/explore-center-city/ccd-sips/sips-list-view?page=3#libertine'>Libertine<\/a>","<a href='https://centercityphila.org/explore-center-city/ccd-sips/sips-list-view?page=3#lucky-strike'>Lucky Strike<\/a>","<a href='https://centercityphila.org/explore-center-city/ccd-sips/sips-list-view?page=3#lucys-bar'>Lucy's Bar<\/a>","<a href='https://centercityphila.org/explore-center-city/ccd-sips/sips-list-view?page=3#marathon-16th-sansom'>Marathon 16th & Sansom<\/a>","<a href='https://centercityphila.org/explore-center-city/ccd-sips/sips-list-view?page=3#misconduct-tavern'>Misconduct Tavern<\/a>","<a href='https://centercityphila.org/explore-center-city/ccd-sips/sips-list-view?page=3#miss-saigon'>Miss Saigon Vietnamese Restaurant and Lounge<\/a>","<a href='https://centercityphila.org/explore-center-city/ccd-sips/sips-list-view?page=4#morea'>Morea<\/a>","<a href='https://centercityphila.org/explore-center-city/ccd-sips/sips-list-view?page=4#the-morris'>The Morris<\/a>","<a href='https://centercityphila.org/explore-center-city/ccd-sips/sips-list-view?page=4#the-mulberry-on-arch'>The Mulberry on Arch<\/a>","<a href='https://centercityphila.org/explore-center-city/ccd-sips/sips-list-view?page=4#nabrasa-brazilian-steakhouse'>Nabrasa Brazilian Steakhouse<\/a>","<a href='https://centercityphila.org/explore-center-city/ccd-sips/sips-list-view?page=4#paganos-market-and-bar'>Pagano's Market and Bar<\/a>","<a href='https://centercityphila.org/explore-center-city/ccd-sips/sips-list-view?page=4#patchwork'>Patchwork<\/a>","<a href='https://centercityphila.org/explore-center-city/ccd-sips/sips-list-view?page=4#pearl-mary'>Pearl & Mary<\/a>","<a href='https://centercityphila.org/explore-center-city/ccd-sips/sips-list-view?page=4#pizzeria-vetri-rittenhouse'>Pizzeria Vetri Rittenhouse<\/a>","<a href='https://centercityphila.org/explore-center-city/ccd-sips/sips-list-view?page=4#prunella'>Prunella<\/a>","<a href='https://centercityphila.org/explore-center-city/ccd-sips/sips-list-view?page=4#restaurant-aleksandar-2'>Restaurant Aleksandar*<\/a>","<a href='https://centercityphila.org/explore-center-city/ccd-sips/sips-list-view?page=4#sampan7'>Sampan<\/a>","<a href='https://centercityphila.org/explore-center-city/ccd-sips/sips-list-view?page=4#strangeloves'>Strangelove's<\/a>","<a href='https://centercityphila.org/explore-center-city/ccd-sips/sips-list-view?page=4#sueno'>Sueno<\/a>","<a href='https://centercityphila.org/explore-center-city/ccd-sips/sips-list-view?page=4#sura-indian-bistro'>Sura Indian Bistro<\/a>","<a href='https://centercityphila.org/explore-center-city/ccd-sips/sips-list-view?page=4#taste-cheesesteak-bar'>Taste Cheesesteak Bar<\/a>","<a href='https://centercityphila.org/explore-center-city/ccd-sips/sips-list-view?page=4#thanal-indian-tavern'>Thanal Indian Tavern<\/a>","<a href='https://centercityphila.org/explore-center-city/ccd-sips/sips-list-view?page=4#time-restaurant'>Time Restaurant<\/a>","<a href='https://centercityphila.org/explore-center-city/ccd-sips/sips-list-view?page=4#tir-na-nog-irish-bar-grill'>Tir Na Nog Irish Bar & Grill<\/a>","<a href='https://centercityphila.org/explore-center-city/ccd-sips/sips-list-view?page=4#top-tomato-bar-pizza'>Top Tomato Bar & Pizza<\/a>","<a href='https://centercityphila.org/explore-center-city/ccd-sips/sips-list-view?page=4#tradesman-s'>Tradesman's<\/a>","<a href='https://centercityphila.org/explore-center-city/ccd-sips/sips-list-view?page=5#treble-bass'>Treble & Bass<\/a>","<a href='https://centercityphila.org/explore-center-city/ccd-sips/sips-list-view?page=5#uptown-beer-garden'>Uptown Beer Garden<\/a>","<a href='https://centercityphila.org/explore-center-city/ccd-sips/sips-list-view?page=5#veda-modern-indian-bistr'>Veda - Modern Indian Bistro<\/a>","<a href='https://centercityphila.org/explore-center-city/ccd-sips/sips-list-view?page=5#via-locust'>Via Locusta<\/a>","<a href='https://centercityphila.org/explore-center-city/ccd-sips/sips-list-view?page=5#village-whiskey'>Village Whiskey<\/a>","<a href='https://centercityphila.org/explore-center-city/ccd-sips/sips-list-view?page=5#vintage-wine-bar-bistro'>Vintage Wine Bar & Bistro<\/a>","<a href='https://centercityphila.org/explore-center-city/ccd-sips/sips-list-view?page=5#vinyl'>Vinyl<\/a>","<a href='https://centercityphila.org/explore-center-city/ccd-sips/sips-list-view?page=5#walnut-garden'>Walnut Garden<\/a>","<a href='https://centercityphila.org/explore-center-city/ccd-sips/sips-list-view?page=5#wicked-wolf'>Wicked Wolf<\/a>","<a href='https://centercityphila.org/explore-center-city/ccd-sips/sips-list-view?page=5#wrap-shack'>Wrap Shack<\/a>","<a href='https://centercityphila.org/explore-center-city/ccd-sips/sips-list-view?page=5#yakitori-boy'>Yakitori Boy<\/a>"],["1225 Sansom St, Philadelphia, PA 19102","1201 Market St., Philadelphia, PA 19107","1518 Sansom St, Philadelphia, PA 19102","1 S 15th St, Philadelphia, PA 19102","1730 Chestnut Street, Philadelphia PA, 19103","1421 Arch St, Philadelphia, PA 19102","1800 Market St, Philadelphia, PA 19103","219 S Broad Street Philadelphia, PA 19107","1200 Market St, Philadelphia, PA 19107","133 S 18th St, Philadelphia, PA 19103","1523 Sansom St, Philadelphia, PA 19102","101 N. 11th St, Philadelphia, PA 19107","110 S 13th St, Philadelphia, PA 19107","929 Walnut St, Philadephia, PA 19107","1213 Sansom St, Philadelphia, PA 19102","247 S 17th St, Philadelphia, PA 19103","1223 Walnut Street, Philadelphia, PA 19107","1318 Chestnut St, Philadelphia, PA 19107","1234 Locust St, Philadephia, PA 19107","2034 Chestnut St, Philadelphia PA 19103","110 N 16th St, Philadelphia PA, 19102","1126 Walnut St, Philadelphia, PA 19107","1305 Locust St, Philadelphia, PA 19107","1921 Sansom Street, Philadelphia, PA 19103","1421 Sansom Street","2 Logan Square, Philadelphia, PA 19103","1700 Ben Franklin Pkwy, Philadelphia, PA 19103","1801 Chestnut St, Philadelphia, PA 19103","104 South 13th Street, Philadelphia, PA 19107","1907 Chestnut St, Philadelphia, PA 19103","225 S 18th St, Philadelphia, PA 19103","834 Chestnut Street, Philadelphia, PA 19107","1930 Chestnut St, Philadelphia, PA 19103","1437 Chestnut Street, Philadelphia, PA 19102","120 S 13th St. , Philadelphia, PA 19107","1903 Chestnut St., Philadelphia, PA 19103","1311 Sansom St, Philadelphia, PA 19107","1500 Locust Street, Philadelphia, PA 19102","118 S 12th Street, Philadelphia, PA 19107","205 S 13th St, Philadelphia PA 19107","1715 Rittenhouse Square, Philadelphia, PA 19103","1523 Sansom St, Philadelphia, PA 19102","1907 Sansom St, Philadelphia, PA 19103","1716 Chestnut St, Philadelphia, PA 19103","1113 Market St, Philadelphia, PA 19107","1525 Sansom St, Philadelphia, PA, 19102","1123 Walnut Street Philadelphia, PA 19107","1109 Walnut Street, Philadelphia, PA 19107","101 S. 9th Street, Philadelphia, PA 19107","258 S 15th St, Philadelphia, PA 19102","100 S Independence Mall W, Philadelphia, PA 19106","1150 Market Street, Philadelphia, PA 19107","2102 Market St., Philadelphia, PA 19103","1528 Sansom St, Philadelphia, PA 19102","261 S. 13th St, Philadelphia, PA 19107","1336 Chestnut St, Philadelphia, PA 19107","1720 Chestnut St., Philadelphia, PA 19103","121 S 16th St, Philadelphia, PA 19102","1801 John F Kennedy Blvd, Philadelphia, PA 19103","1316 Walnut St, Philadelphia, PA 19107","110 South 11th St., Philadelphia, PA 19107","225 S 8th St, Philadelphia, PA 19107","1835 Arch St, Philadelphia, PA 19103","1901 John F Kennedy Blvd, Philadelphia, PA 19103","2001 Market St, Philadelphia, PA 19103","1620 Chancellor St., Philadelphia, PA 19103","114 S 13th St., Philadelphia, PA 19107","1615 Chancellor St, Philadephia, PA 19103","112 S 13th St, Philadelphia, PA 19107","126 S 19th Street, Philadelphia, PA 19103","124 S 13th St, Philadelphia, PA 19107","1112 Chestnut Street, Philadelphia, PA 19107","114 S. 12th St., Philadelphia PA, 19107","1726 Chestnut St, Philadelphia, PA 19103","1809 John F Kennedy Blvd, Philadelphia, PA 19103","1939 Arch Street, Philadelphia, PA 19103","1315 Sansom St, Philadelphia, PA 19107","1600 Arch St, Philadelphia, PA 19103","116 S 11th St, Philadelphia, PA 19107","1322 Chestnut Street, Philadelphia, PA 19107","219 S Broad Street, Philadelphia, PA 19107","1735 John F Kennedy Blvd, Philadelphia, PA 19103","1920 Chestnut St., Philadelphia PA 19103","1723 Locust St,  Philadelphia PA 19103","118 S 20th St, Philadelphia, PA 19103","129 S 13th St, Philadelphia, PA 19107","215 S 15th St, Philadelphia, PA 19102","1708 Walnut Street, Philadelphia, PA 19103","1214-1216 Chestnut St., Philadelphia, PA 19107","112 S 11th St., Philadelphia, PA 19107","211 N 11th St, Philadelphia, PA 19107"],["Yes","Yes","Yes","No","Yes","No","Yes","Yes","Yes","Yes","Report not found","Yes","Yes","Yes","Yes","Yes","Yes","Yes","Yes","Yes","Yes","Yes","Yes","Yes","Yes","Yes","Yes","Yes","Yes","Yes","Yes","No","Yes","Report not found","Yes","Yes","No","Report not found","Yes","Yes","Yes","Yes","Yes","No","Yes","Yes","Yes","Report not found","Report not found","Yes","Yes","No","Yes","No","Yes","Yes","Report not found","No","Yes","Report not found","Yes","Yes","Yes","Yes","Yes","Report not found","Yes","Yes","Yes","Yes","Yes","Yes","Yes","Report not found","Yes","Yes","No","Yes","No","Yes","Report not found","Report not found","Yes","Yes","Yes","Yes","No","Report not found","Yes","No","Yes"],["Yes","Yes","Yes","Yes","Yes","Yes","Yes","Yes","Yes","Yes","Report not found","Yes","Yes","Yes","Yes","Yes","Yes","Yes","Yes","Yes","Yes","Yes","Yes","Yes","Yes","Yes","Yes","Yes","Yes","Yes","Yes","Yes","Yes","Report not found","Yes","Yes","Yes","Report not found","Yes","Yes","Yes","Yes","Yes","Yes","Yes","Yes","Yes","Report not found","Report not found","Yes","Yes","Yes","Yes","Yes","Yes","Yes","Report not found","Yes","Yes","Report not found","Yes","Yes","Yes","Yes","Yes","Report not found","Yes","Yes","Yes","Yes","Yes","Yes","Yes","Report not found","Yes","Yes","Yes","Yes","Yes","Yes","Report not found","Report not found","Yes","Yes","Yes","Yes","No","Report not found","Yes","Yes","Yes"],["February 02, 2024","April 01, 2024","April 03, 2024","April 20, 2023","April 18, 2024","March 28, 2024","December 14, 2023","October 11, 2023","August 01, 2023","June 27, 2024",null,"January 30, 2024","March 06, 2024","July 21, 2023","February 28, 2024","September 13, 2023","May 02, 2024","December 29, 2023","April 23, 2024","August 03, 2022","May 15, 2024","April 01, 2024","January 03, 2024","August 11, 2023","February 22, 2023","July 19, 2023","September 21, 2023","February 29, 2024","June 17, 2024","March 04, 2024","January 17, 2024","June 06, 2024","January 09, 2024",null,"May 22, 2024","February 09, 2024","November 09, 2023",null,"December 20, 2023","September 14, 2023","January 23, 2024","February 22, 2024","March 15, 2024","April 15, 2024","June 27, 2024","November 15, 2023","October 18, 2023",null,"September 19, 2023","May 23, 2024","September 11, 2023","September 12, 2023","May 30, 2024","July 06, 2023","May 21, 2024","February 06, 2024","January 26, 2024","April 16, 2024","May 08, 2024",null,"November 08, 2023","May 22, 2024","March 13, 2024","June 20, 2024","October 30, 2023",null,"June 04, 2024","February 22, 2024","May 16, 2024","April 26, 2024","May 22, 2024","May 23, 2023","October 16, 2023",null,"June 24, 2024","May 02, 2024","January 04, 2024","April 23, 2024","January 10, 2024","December 29, 2023",null,"May 02, 2023","January 08, 2024","August 10, 2023","April 26, 2024","December 14, 2023","July 14, 2023",null,"April 17, 2024","November 08, 2023","January 30, 2024"]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th>Business<\/th>\n      <th>Address<\/th>\n      <th>Foodborne illness risk factor<\/th>\n      <th>Lack of good retail practices<\/th>\n      <th>Food safety inspection date<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"pageLength":10,"columnDefs":[{"name":"link","targets":0},{"name":"address","targets":1},{"name":"foodborne_cat","targets":2},{"name":"retail_cat","targets":3},{"name":"inspection_date","targets":4}],"order":[],"autoWidth":false,"orderClasses":false}},"evals":[],"jsHooks":[]}</script>
+<div class="datatables html-widget html-fill-item" id="htmlwidget-97ddd294a646491235b5" style="width:100%;height:auto;"></div>
+<script type="application/json" data-for="htmlwidget-97ddd294a646491235b5">{"x":{"filter":"none","vertical":false,"data":[["<a href='https://centercityphila.org/explore-center-city/ccd-sips/sips-list-view?page=1#1225-raw-sushi-and-sake-lounge'>1225 Raw Sushi and Sake Lounge<\/a>","<a href='https://centercityphila.org/explore-center-city/ccd-sips/sips-list-view?page=1#13-patio'>13 Patio<\/a>","<a href='https://centercityphila.org/explore-center-city/ccd-sips/sips-list-view?page=1#1518-bar-and-grill'>1518 Bar and Grill<\/a>","<a href='https://centercityphila.org/explore-center-city/ccd-sips/sips-list-view?page=1#air-grill-garden-dilworth-park'>Air Grille at Dilworth Park (Please note: Not participating on Wednesday, June 19)<\/a>","<a href='https://centercityphila.org/explore-center-city/ccd-sips/sips-list-view?page=1#alimentari-at-di-bruno-bros-rittenhouse'>Alimentari at Di Bruno Bros. Rittenhouse (Please note: Closed on Wednesday, June 19)<\/a>","<a href='https://centercityphila.org/explore-center-city/ccd-sips/sips-list-view?page=1#amuse'>aMuse<\/a>","<a href='https://centercityphila.org/explore-center-city/ccd-sips/sips-list-view?page=1#artbar-at-sonesta-hot'>ArtBar at Sonesta Hotel<\/a>","<a href='https://centercityphila.org/explore-center-city/ccd-sips/sips-list-view?page=1#attico-rooftop-please-note-not-participating-on-wednesday-june-19'>Attico Rooftop (Please note: Not participating on Wednesday, June 19)<\/a>","<a href='https://centercityphila.org/explore-center-city/ccd-sips/sips-list-view?page=1#bank-and-bourbon'>Bank and Bourbon<\/a>","<a href='https://centercityphila.org/explore-center-city/ccd-sips/sips-list-view?page=1#bar-bombon'>Bar Bombon<\/a>","<a href='https://centercityphila.org/explore-center-city/ccd-sips/sips-list-view?page=1#bar-lesieur'>Bar Lesieur<\/a>","<a href='https://centercityphila.org/explore-center-city/ccd-sips/sips-list-view?page=1#bar-ly-chinatown'>Bar-Ly Chinatown<\/a>","<a href='https://centercityphila.org/explore-center-city/ccd-sips/sips-list-view?page=1#barbuzzo'>Barbuzzo<\/a>","<a href='https://centercityphila.org/explore-center-city/ccd-sips/sips-list-view?page=1#barra-rossa'>Barra Rossa<\/a>","<a href='https://centercityphila.org/explore-center-city/ccd-sips/sips-list-view?page=1#barstool-sansom-street'>Barstool Sansom Street<\/a>","<a href='https://centercityphila.org/explore-center-city/ccd-sips/sips-list-view?page=1#the-black-sheep'>The Black Sheep<\/a>","<a href='https://centercityphila.org/explore-center-city/ccd-sips/sips-list-view?page=1#bodega-taco-bar'>Bodega Taco Bar<\/a>","<a href='https://centercityphila.org/explore-center-city/ccd-sips/sips-list-view?page=1#brü-craft-wurst'>Brü Craft & Wurst<\/a>","<a href='https://centercityphila.org/explore-center-city/ccd-sips/sips-list-view?page=1#bud-marilyns'>Bud & Marilyn's<\/a>","<a href='https://centercityphila.org/explore-center-city/ccd-sips/sips-list-view?page=1#butcher-bar'>Butcher Bar<\/a>","<a href='https://centercityphila.org/explore-center-city/ccd-sips/sips-list-view?page=2#capriccio-café-and-bar'>Capriccio Café and Bar<\/a>","<a href='https://centercityphila.org/explore-center-city/ccd-sips/sips-list-view?page=2#caribou-café'>Caribou Café<\/a>","<a href='https://centercityphila.org/explore-center-city/ccd-sips/sips-list-view?page=2#the-cauldron-philly'>The Cauldron Philly<\/a>","<a href='https://centercityphila.org/explore-center-city/ccd-sips/sips-list-view?page=2#cavanaugh-s-rittenhouse'>Cavanaugh's Rittenhouse<\/a>","<a href='https://centercityphila.org/explore-center-city/ccd-sips/sips-list-view?page=2#chris-jazz-cafe'>Chris' Jazz Cafe<\/a>","<a href='https://centercityphila.org/explore-center-city/ccd-sips/sips-list-view?page=2#city-tap-house-logan-square'>City Tap House Logan Square<\/a>","<a href='https://centercityphila.org/explore-center-city/ccd-sips/sips-list-view?page=2#con-murphy-s-irish-pub'>Con Murphy's Irish Pub<\/a>","<a href='https://centercityphila.org/explore-center-city/ccd-sips/sips-list-view?page=2#continental-midtown-2'>Continental Midtown<\/a>","<a href='https://centercityphila.org/explore-center-city/ccd-sips/sips-list-view?page=2#darling-jack-s-tavern'>Darling Jack's Tavern<\/a>","<a href='https://centercityphila.org/explore-center-city/ccd-sips/sips-list-view?page=2#devil-s-alley'>Devil's Alley<\/a>","<a href='https://centercityphila.org/explore-center-city/ccd-sips/sips-list-view?page=2#devon-seafood-grill'>Devon Seafood Grill<\/a>","<a href='https://centercityphila.org/explore-center-city/ccd-sips/sips-list-view?page=2#di-brunos-the-franklin'>Di Bruno's - The Franklin<\/a>","<a href='https://centercityphila.org/explore-center-city/ccd-sips/sips-list-view?page=2#dim-sum-house-by-jane-g-s'>Dim Sum House by Jane G's<\/a>","<a href='https://centercityphila.org/explore-center-city/ccd-sips/sips-list-view?page=2#dolce-italian'>Dolce Italian<\/a>","<a href='https://centercityphila.org/explore-center-city/ccd-sips/sips-list-view?page=2#doubleknot'>Double Knot<\/a>","<a href='https://centercityphila.org/explore-center-city/ccd-sips/sips-list-view?page=2#drinker-s-pub'>Drinker's Pub<\/a>","<a href='https://centercityphila.org/explore-center-city/ccd-sips/sips-list-view?page=2#drury-beer-garden-dbg'>Drury Beer Garden (DBG)<\/a>","<a href='https://centercityphila.org/explore-center-city/ccd-sips/sips-list-view?page=2#elephant'>Elephant<\/a>","<a href='https://centercityphila.org/explore-center-city/ccd-sips/sips-list-view?page=2#finn-mccools-ale-house'>Finn McCools Ale House<\/a>","<a href='https://centercityphila.org/explore-center-city/ccd-sips/sips-list-view?page=2#flambo-caribbean-restaurant'>Flambo Caribbean Restaurant<\/a>","<a href='https://centercityphila.org/explore-center-city/ccd-sips/sips-list-view?page=3#franklin-mortgage-investment-company'>The Franklin Mortgage & Investment Company<\/a>","<a href='https://centercityphila.org/explore-center-city/ccd-sips/sips-list-view?page=3#giuseppe-and-sons'>Giuseppe and Sons<\/a>","<a href='https://centercityphila.org/explore-center-city/ccd-sips/sips-list-view?page=3#the-goat-rittenhouse'>The Goat Rittenhouse<\/a>","<a href='https://centercityphila.org/explore-center-city/ccd-sips/sips-list-view?page=3#gran-caffe-l-aquila'>Gran Caffe L'Aquila<\/a>","<a href='https://centercityphila.org/explore-center-city/ccd-sips/sips-list-view?page=3#hard-rock-cafe'>Hard Rock Cafe<\/a>","<a href='https://centercityphila.org/explore-center-city/ccd-sips/sips-list-view?page=3#harp-crown1'>Harp & Crown<\/a>","<a href='https://centercityphila.org/explore-center-city/ccd-sips/sips-list-view?page=3#the-hayes'>The Hayes<\/a>","<a href='https://centercityphila.org/explore-center-city/ccd-sips/sips-list-view?page=3#hi-lo-taco'>Hi-lo Taco Co.<\/a>","<a href='https://centercityphila.org/explore-center-city/ccd-sips/sips-list-view?page=3#high-street'>High Street<\/a>","<a href='https://centercityphila.org/explore-center-city/ccd-sips/sips-list-view?page=3#howl-at-the-moon'>Howl at the Moon<\/a>","<a href='https://centercityphila.org/explore-center-city/ccd-sips/sips-list-view?page=3#independence-beer-garden'>Independence Beer Garden<\/a>","<a href='https://centercityphila.org/explore-center-city/ccd-sips/sips-list-view?page=3#iron-hill-brewery-restaurant'>Iron Hill Brewery & Restaurant<\/a>","<a href='https://centercityphila.org/explore-center-city/ccd-sips/sips-list-view?page=3#kook-burger-bar'>Kook Burger & Bar<\/a>","<a href='https://centercityphila.org/explore-center-city/ccd-sips/sips-list-view?page=3#ladder-15'>Ladder 15<\/a>","<a href='https://centercityphila.org/explore-center-city/ccd-sips/sips-list-view?page=3#libertine'>Libertine<\/a>","<a href='https://centercityphila.org/explore-center-city/ccd-sips/sips-list-view?page=3#lucky-strike'>Lucky Strike<\/a>","<a href='https://centercityphila.org/explore-center-city/ccd-sips/sips-list-view?page=3#lucys-bar'>Lucy's Bar<\/a>","<a href='https://centercityphila.org/explore-center-city/ccd-sips/sips-list-view?page=3#marathon-16th-sansom'>Marathon 16th & Sansom<\/a>","<a href='https://centercityphila.org/explore-center-city/ccd-sips/sips-list-view?page=3#misconduct-tavern'>Misconduct Tavern<\/a>","<a href='https://centercityphila.org/explore-center-city/ccd-sips/sips-list-view?page=3#miss-saigon'>Miss Saigon Vietnamese Restaurant and Lounge<\/a>","<a href='https://centercityphila.org/explore-center-city/ccd-sips/sips-list-view?page=4#morea'>Morea<\/a>","<a href='https://centercityphila.org/explore-center-city/ccd-sips/sips-list-view?page=4#the-morris'>The Morris<\/a>","<a href='https://centercityphila.org/explore-center-city/ccd-sips/sips-list-view?page=4#the-mulberry-on-arch'>The Mulberry on Arch<\/a>","<a href='https://centercityphila.org/explore-center-city/ccd-sips/sips-list-view?page=4#nabrasa-brazilian-steakhouse'>Nabrasa Brazilian Steakhouse<\/a>","<a href='https://centercityphila.org/explore-center-city/ccd-sips/sips-list-view?page=4#paganos-market-and-bar'>Pagano's Market and Bar<\/a>","<a href='https://centercityphila.org/explore-center-city/ccd-sips/sips-list-view?page=4#patchwork'>Patchwork<\/a>","<a href='https://centercityphila.org/explore-center-city/ccd-sips/sips-list-view?page=4#pearl-mary'>Pearl & Mary<\/a>","<a href='https://centercityphila.org/explore-center-city/ccd-sips/sips-list-view?page=4#pizzeria-vetri-rittenhouse'>Pizzeria Vetri Rittenhouse<\/a>","<a href='https://centercityphila.org/explore-center-city/ccd-sips/sips-list-view?page=4#prunella'>Prunella<\/a>","<a href='https://centercityphila.org/explore-center-city/ccd-sips/sips-list-view?page=4#restaurant-aleksandar-2'>Restaurant Aleksandar*<\/a>","<a href='https://centercityphila.org/explore-center-city/ccd-sips/sips-list-view?page=4#sampan7'>Sampan<\/a>","<a href='https://centercityphila.org/explore-center-city/ccd-sips/sips-list-view?page=4#strangeloves'>Strangelove's<\/a>","<a href='https://centercityphila.org/explore-center-city/ccd-sips/sips-list-view?page=4#sueno'>Sueno<\/a>","<a href='https://centercityphila.org/explore-center-city/ccd-sips/sips-list-view?page=4#sura-indian-bistro'>Sura Indian Bistro<\/a>","<a href='https://centercityphila.org/explore-center-city/ccd-sips/sips-list-view?page=4#taste-cheesesteak-bar'>Taste Cheesesteak Bar<\/a>","<a href='https://centercityphila.org/explore-center-city/ccd-sips/sips-list-view?page=4#thanal-indian-tavern'>Thanal Indian Tavern<\/a>","<a href='https://centercityphila.org/explore-center-city/ccd-sips/sips-list-view?page=4#time-restaurant'>Time Restaurant<\/a>","<a href='https://centercityphila.org/explore-center-city/ccd-sips/sips-list-view?page=4#tir-na-nog-irish-bar-grill'>Tir Na Nog Irish Bar & Grill<\/a>","<a href='https://centercityphila.org/explore-center-city/ccd-sips/sips-list-view?page=4#top-tomato-bar-pizza'>Top Tomato Bar & Pizza<\/a>","<a href='https://centercityphila.org/explore-center-city/ccd-sips/sips-list-view?page=4#tradesman-s'>Tradesman's<\/a>","<a href='https://centercityphila.org/explore-center-city/ccd-sips/sips-list-view?page=5#treble-bass'>Treble & Bass<\/a>","<a href='https://centercityphila.org/explore-center-city/ccd-sips/sips-list-view?page=5#uptown-beer-garden'>Uptown Beer Garden<\/a>","<a href='https://centercityphila.org/explore-center-city/ccd-sips/sips-list-view?page=5#veda-modern-indian-bistr'>Veda - Modern Indian Bistro<\/a>","<a href='https://centercityphila.org/explore-center-city/ccd-sips/sips-list-view?page=5#via-locust'>Via Locusta<\/a>","<a href='https://centercityphila.org/explore-center-city/ccd-sips/sips-list-view?page=5#village-whiskey'>Village Whiskey<\/a>","<a href='https://centercityphila.org/explore-center-city/ccd-sips/sips-list-view?page=5#vintage-wine-bar-bistro'>Vintage Wine Bar & Bistro<\/a>","<a href='https://centercityphila.org/explore-center-city/ccd-sips/sips-list-view?page=5#vinyl'>Vinyl<\/a>","<a href='https://centercityphila.org/explore-center-city/ccd-sips/sips-list-view?page=5#walnut-garden'>Walnut Garden<\/a>","<a href='https://centercityphila.org/explore-center-city/ccd-sips/sips-list-view?page=5#wicked-wolf'>Wicked Wolf<\/a>","<a href='https://centercityphila.org/explore-center-city/ccd-sips/sips-list-view?page=5#wrap-shack'>Wrap Shack<\/a>","<a href='https://centercityphila.org/explore-center-city/ccd-sips/sips-list-view?page=5#yakitori-boy'>Yakitori Boy<\/a>"],["1225 Sansom St, Philadelphia, PA 19102","1201 Market St., Philadelphia, PA 19107","1518 Sansom St, Philadelphia, PA 19102","1 S 15th St, Philadelphia, PA 19102","1730 Chestnut Street, Philadelphia PA, 19103","1421 Arch St, Philadelphia, PA 19102","1800 Market St, Philadelphia, PA 19103","219 S Broad Street Philadelphia, PA 19107","1200 Market St, Philadelphia, PA 19107","133 S 18th St, Philadelphia, PA 19103","1523 Sansom St, Philadelphia, PA 19102","101 N. 11th St, Philadelphia, PA 19107","110 S 13th St, Philadelphia, PA 19107","929 Walnut St, Philadephia, PA 19107","1213 Sansom St, Philadelphia, PA 19102","247 S 17th St, Philadelphia, PA 19103","1223 Walnut Street, Philadelphia, PA 19107","1318 Chestnut St, Philadelphia, PA 19107","1234 Locust St, Philadephia, PA 19107","2034 Chestnut St, Philadelphia PA 19103","110 N 16th St, Philadelphia PA, 19102","1126 Walnut St, Philadelphia, PA 19107","1305 Locust St, Philadelphia, PA 19107","1921 Sansom Street, Philadelphia, PA 19103","1421 Sansom Street","2 Logan Square, Philadelphia, PA 19103","1700 Ben Franklin Pkwy, Philadelphia, PA 19103","1801 Chestnut St, Philadelphia, PA 19103","104 South 13th Street, Philadelphia, PA 19107","1907 Chestnut St, Philadelphia, PA 19103","225 S 18th St, Philadelphia, PA 19103","834 Chestnut Street, Philadelphia, PA 19107","1930 Chestnut St, Philadelphia, PA 19103","1437 Chestnut Street, Philadelphia, PA 19102","120 S 13th St. , Philadelphia, PA 19107","1903 Chestnut St., Philadelphia, PA 19103","1311 Sansom St, Philadelphia, PA 19107","1500 Locust Street, Philadelphia, PA 19102","118 S 12th Street, Philadelphia, PA 19107","205 S 13th St, Philadelphia PA 19107","1715 Rittenhouse Square, Philadelphia, PA 19103","1523 Sansom St, Philadelphia, PA 19102","1907 Sansom St, Philadelphia, PA 19103","1716 Chestnut St, Philadelphia, PA 19103","1113 Market St, Philadelphia, PA 19107","1525 Sansom St, Philadelphia, PA, 19102","1123 Walnut Street Philadelphia, PA 19107","1109 Walnut Street, Philadelphia, PA 19107","101 S. 9th Street, Philadelphia, PA 19107","258 S 15th St, Philadelphia, PA 19102","100 S Independence Mall W, Philadelphia, PA 19106","1150 Market Street, Philadelphia, PA 19107","2102 Market St., Philadelphia, PA 19103","1528 Sansom St, Philadelphia, PA 19102","261 S. 13th St, Philadelphia, PA 19107","1336 Chestnut St, Philadelphia, PA 19107","1720 Chestnut St., Philadelphia, PA 19103","121 S 16th St, Philadelphia, PA 19102","1801 John F Kennedy Blvd, Philadelphia, PA 19103","1316 Walnut St, Philadelphia, PA 19107","110 South 11th St., Philadelphia, PA 19107","225 S 8th St, Philadelphia, PA 19107","1835 Arch St, Philadelphia, PA 19103","1901 John F Kennedy Blvd, Philadelphia, PA 19103","2001 Market St, Philadelphia, PA 19103","1620 Chancellor St., Philadelphia, PA 19103","114 S 13th St., Philadelphia, PA 19107","1615 Chancellor St, Philadephia, PA 19103","112 S 13th St, Philadelphia, PA 19107","126 S 19th Street, Philadelphia, PA 19103","124 S 13th St, Philadelphia, PA 19107","1112 Chestnut Street, Philadelphia, PA 19107","114 S. 12th St., Philadelphia PA, 19107","1726 Chestnut St, Philadelphia, PA 19103","1809 John F Kennedy Blvd, Philadelphia, PA 19103","1939 Arch Street, Philadelphia, PA 19103","1315 Sansom St, Philadelphia, PA 19107","1600 Arch St, Philadelphia, PA 19103","116 S 11th St, Philadelphia, PA 19107","1322 Chestnut Street, Philadelphia, PA 19107","219 S Broad Street, Philadelphia, PA 19107","1735 John F Kennedy Blvd, Philadelphia, PA 19103","1920 Chestnut St., Philadelphia PA 19103","1723 Locust St,  Philadelphia PA 19103","118 S 20th St, Philadelphia, PA 19103","129 S 13th St, Philadelphia, PA 19107","215 S 15th St, Philadelphia, PA 19102","1708 Walnut Street, Philadelphia, PA 19103","1214-1216 Chestnut St., Philadelphia, PA 19107","112 S 11th St., Philadelphia, PA 19107","211 N 11th St, Philadelphia, PA 19107"],["Yes","Yes","Yes","No","Yes","No","Yes","Yes","Yes","Yes","Report not found","Yes","Yes","Yes","Yes","Yes","Yes","Yes","Yes","Yes","Yes","Yes","Yes","Yes","Yes","Yes","Yes","Yes","Yes","Yes","Yes","No","Yes","Report not found","Yes","Yes","No","Report not found","Yes","Yes","Yes","Yes","Yes","No","Yes","Yes","Yes","Report not found","Report not found","Yes","Yes","No","Yes","No","Yes","Yes","Report not found","No","Yes","Report not found","Yes","Yes","Yes","Yes","Yes","Report not found","Yes","Yes","Yes","Yes","Yes","Yes","Yes","Report not found","Yes","Yes","No","Yes","No","Yes","Report not found","Report not found","Yes","Yes","Yes","Yes","No","Report not found","Yes","No","Yes"],["Yes","Yes","Yes","Yes","Yes","Yes","Yes","Yes","Yes","Yes","Report not found","Yes","Yes","Yes","Yes","Yes","Yes","Yes","Yes","Yes","Yes","Yes","Yes","Yes","Yes","Yes","Yes","Yes","Yes","Yes","Yes","Yes","Yes","Report not found","Yes","Yes","Yes","Report not found","Yes","Yes","Yes","Yes","Yes","Yes","Yes","Yes","Yes","Report not found","Report not found","Yes","Yes","Yes","Yes","Yes","Yes","Yes","Report not found","Yes","Yes","Report not found","Yes","Yes","Yes","Yes","Yes","Report not found","Yes","Yes","Yes","Yes","Yes","Yes","Yes","Report not found","Yes","Yes","Yes","Yes","Yes","Yes","Report not found","Report not found","Yes","Yes","Yes","Yes","No","Report not found","Yes","Yes","Yes"],["February 02, 2024","April 01, 2024","April 03, 2024","April 20, 2023","April 18, 2024","March 28, 2024","December 14, 2023","October 11, 2023","August 01, 2023","June 27, 2024",null,"January 30, 2024","March 06, 2024","July 21, 2023","February 28, 2024","September 13, 2023","May 02, 2024","December 29, 2023","April 23, 2024","August 03, 2022","May 15, 2024","April 01, 2024","January 03, 2024","August 11, 2023","February 22, 2023","July 19, 2023","September 21, 2023","February 29, 2024","June 17, 2024","March 04, 2024","January 17, 2024","June 06, 2024","January 09, 2024",null,"May 22, 2024","February 09, 2024","November 09, 2023",null,"December 20, 2023","September 14, 2023","January 23, 2024","February 22, 2024","March 15, 2024","April 15, 2024","June 27, 2024","November 15, 2023","October 18, 2023",null,"September 19, 2023","May 23, 2024","September 11, 2023","September 12, 2023","May 30, 2024","July 06, 2023","May 21, 2024","February 06, 2024","January 26, 2024","April 16, 2024","May 08, 2024",null,"November 08, 2023","May 22, 2024","March 13, 2024","June 20, 2024","October 30, 2023",null,"June 04, 2024","February 22, 2024","May 16, 2024","April 26, 2024","May 22, 2024","May 23, 2023","October 16, 2023",null,"June 24, 2024","May 02, 2024","January 04, 2024","April 23, 2024","January 10, 2024","December 29, 2023",null,"May 02, 2023","January 08, 2024","August 10, 2023","April 26, 2024","December 14, 2023","July 14, 2023",null,"April 17, 2024","November 08, 2023","January 30, 2024"]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th>Business<\/th>\n      <th>Address<\/th>\n      <th>Foodborne illness risk factor<\/th>\n      <th>Lack of good retail practices<\/th>\n      <th>Food safety inspection date<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"pageLength":10,"columnDefs":[{"name":"link","targets":0},{"name":"address","targets":1},{"name":"foodborne_cat","targets":2},{"name":"retail_cat","targets":3},{"name":"inspection_date","targets":4}],"order":[],"autoWidth":false,"orderClasses":false}},"evals":[],"jsHooks":[]}</script>
 </div>
 </div>
 </section><section id="past-years" class="level2"><h2 class="anchored" data-anchor-id="past-years">Past years</h2>
@@ -329,11 +334,11 @@ width: 100%;
 <div class="g-col-12">
 <div id="listing-maps" class="quarto-listing quarto-listing-container-grid">
 <div class="list grid quarto-listing-cols-2">
-<div class="g-col-1" data-index="0" data-listing-date-sort="1685941200000">
+<div class="g-col-1" data-index="0" data-listing-date-sort="1685937600000">
 <a href="_2023/map.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img loading="lazy" src="_2023/featured.png" class="thumbnail-image card-img" style="height: 200;"></p>
+<img src="_2023/featured.png" class="thumbnail-image card-img" style="height: 200;"></p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 2023
@@ -349,11 +354,11 @@ Web analytics
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="1" data-listing-date-sort="1653973200000">
+<div class="g-col-1" data-index="1" data-listing-date-sort="1653969600000">
 <a href="_2022/map.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img loading="lazy" src="_2022/featured.png" class="thumbnail-image card-img" style="height: 200;"></p>
+<img src="_2022/featured.png" class="thumbnail-image card-img" style="height: 200;"></p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 2022
@@ -369,7 +374,7 @@ Web analytics
 <a href="_2019/map.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img loading="lazy" src="_2019/featured.png" class="thumbnail-image card-img" style="height: 200;"></p>
+<img src="_2019/featured.png" class="thumbnail-image card-img" style="height: 200;"></p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 2019
@@ -392,9 +397,10 @@ No matching items
 
 
 
-</section><a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a><div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-canelón2024" class="csl-entry quarto-appendix-citeas" role="listitem">
-Canelón, Silvia, and Mallori Lofton-Malachi. 2024. <span>“Philly Center
-City District SIPS: An Interactive Map.”</span> June 16, 2024. <a href="https://silviacanelon.com/project/2024-06-16-ccd-sips/">https://silviacanelon.com/project/2024-06-16-ccd-sips/</a>.
+</section><a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a><div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-vincent hass2024" class="csl-entry quarto-appendix-citeas" role="listitem">
+Vincent Hass, Nadhir, Silvia Canelón, and Mallori Lofton-Malachi. 2024.
+<span>“Philly Center City District SIPS: An Interactive Map.”</span>
+June 16, 2024. <a href="https://nadhirvincent.com/project/2024-06-16-ccd-sips">https://nadhirvincent.com/project/2024-06-16-ccd-sips</a>.
 </div></div></section></div></main><!-- /main --><script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -574,7 +580,18 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
     return false;
   }
-  const onCopySuccess = function(e) {
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
     // button target
     const button = e.trigger;
     // don't keep focus
@@ -606,45 +623,58 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }, 1000);
     // clear code selection
     e.clearSelection();
-  }
-  const getTextToCopy = function(trigger) {
-      const codeEl = trigger.previousElementSibling.cloneNode(true);
-      for (const childEl of codeEl.children) {
-        if (isCodeAnnotation(childEl)) {
-          childEl.remove();
-        }
-      }
-      return codeEl.innerText;
-  }
-  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
-    text: getTextToCopy
   });
-  clipboard.on('success', onCopySuccess);
-  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
-    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
-      text: getTextToCopy,
-      container: window.document.getElementById('quarto-embedded-source-code-modal')
+  const viewSource = window.document.getElementById('quarto-view-source') ||
+                     window.document.getElementById('quarto-code-tools-source');
+  if (viewSource) {
+    const sourceUrl = viewSource.getAttribute("data-quarto-source-url");
+    viewSource.addEventListener("click", function(e) {
+      if (sourceUrl) {
+        // rstudio viewer pane
+        if (/\bcapabilities=\b/.test(window.location)) {
+          window.open(sourceUrl);
+        } else {
+          window.location.href = sourceUrl;
+        }
+      } else {
+        const modal = new bootstrap.Modal(document.getElementById('quarto-embedded-source-code-modal'));
+        modal.show();
+      }
+      return false;
     });
-    clipboardModal.on('success', onCopySuccess);
   }
-    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
-    var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp("https:\/\/silviacanelon\.com");
-    var isInternal = (href) => {
-        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
-    }
-    // Inspect non-navigation links and adorn them if external
- 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
-    for (var i=0; i<links.length; i++) {
-      const link = links[i];
-      if (!isInternal(link.href)) {
-        // undo the damage that might have been done by quarto-nav.js in the case of
-        // links that we want to consider external
-        if (link.dataset.originalHref !== undefined) {
-          link.href = link.dataset.originalHref;
+  function toggleCodeHandler(show) {
+    return function(e) {
+      const detailsSrc = window.document.querySelectorAll(".cell > details > .sourceCode");
+      for (let i=0; i<detailsSrc.length; i++) {
+        const details = detailsSrc[i].parentElement;
+        if (show) {
+          details.open = true;
+        } else {
+          details.removeAttribute("open");
         }
       }
+      const cellCodeDivs = window.document.querySelectorAll(".cell > .sourceCode");
+      const fromCls = show ? "hidden" : "unhidden";
+      const toCls = show ? "unhidden" : "hidden";
+      for (let i=0; i<cellCodeDivs.length; i++) {
+        const codeDiv = cellCodeDivs[i];
+        if (codeDiv.classList.contains(fromCls)) {
+          codeDiv.classList.remove(fromCls);
+          codeDiv.classList.add(toCls);
+        } 
+      }
+      return false;
     }
+  }
+  const hideAllCode = window.document.getElementById("quarto-hide-all-code");
+  if (hideAllCode) {
+    hideAllCode.addEventListener("click", toggleCodeHandler(false));
+  }
+  const showAllCode = window.document.getElementById("quarto-show-all-code");
+  if (showAllCode) {
+    showAllCode.addEventListener("click", toggleCodeHandler(true));
+  }
   function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
     const config = {
       allowHTML: true,
@@ -679,11 +709,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       try { href = new URL(href).hash; } catch {}
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
-      if (note) {
-        return note.innerHTML;
-      } else {
-        return "";
-      }
+      return note.innerHTML;
     });
   }
   const xrefs = window.document.querySelectorAll('a.quarto-xref');
@@ -731,6 +757,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       if (window.Quarto?.typesetMath) {
         window.Quarto.typesetMath(note);
       }
+      // TODO in 1.5, we should make sure this works without a callout special case
       if (note.classList.contains("callout")) {
         return note.outerHTML;
       } else {
@@ -955,15 +982,15 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
 });
-</script><script src="https://utteranc.es/client.js" repo="spcanelon/silvia" issue-term="title" theme="boxy-light" crossorigin="anonymous" async="">
+</script><script src="https://utteranc.es/client.js" repo="vincehass/nadhir" issue-term="title" theme="github-light" crossorigin="anonymous" async="">
 </script>
 </div> <!-- /content -->
 <footer class="footer"><div class="nav-footer">
     <div class="nav-footer-left">
-<p>© 2024 Silvia Canelón ∙ Made with <a href="https://quarto.org">Quarto</a></p>
+<p>© 2024 Nadhir Vincent Hass ∙ Made with <a href="https://quarto.org">Quarto</a></p>
 </div>   
     <div class="nav-footer-center">
-<p><a class="link-dark me-1" href="../../accessibility.html" title="Accessibility commitment" target="_blank" rel="noopener"><i class="fa-solid fa-universal-access" aria-label="universal-access"></i></a> <a class="link-dark me-1" href="https://bsky.app/profile/silviacanelon.com" title="Bluesky" target="_blank" rel="noopener"><i class="fa-brands fa-bluesky" aria-label="bluesky"></i></a> <a class="link-dark me-1" href="https://linkedin.com/in/spcanelon" title="LinkedIn" target="_blank" rel="noopener"><i class="fa-brands fa-linkedin" aria-label="linkedin"></i></a> <a class="link-dark me-1" href="https://github.com/spcanelon" title="github" target="_blank" rel="noopener"><i class="fa-brands fa-github" aria-label="github"></i></a> <a class="link-dark me-1" href="https://orcid.org/0000-0003-1709-1394" title="orcid" target="_blank" rel="noopener"><i class="ai  ai-orcid"></i></a> <a class="link-dark me-1" href="https://scholar.google.com/citations?user=GAzkvpcAAAAJ&amp;hl=en&amp;oi=ao" title="Google Scholar" target="_blank" rel="noopener"><i class="ai  ai-google-scholar"></i></a> <a class="link-dark me-1" href="https://buttondown.com/spcanelon" title="Newsletter" target="_blank" rel="noopener"><i class="fa-solid fa-envelope" aria-label="envelope"></i></a></p>
+<p><a class="link-dark me-1" href="../../accessibility.html" title="Accessibility commitment" target="_blank" rel="noopener"><i class="fa-solid fa-universal-access" aria-label="universal-access"></i></a> <a class="link-dark me-1" href="https://linkedin.com/in/nadhir-vincent-hass-216391aa" title="LinkedIn" target="_blank" rel="noopener"><i class="fa-brands fa-linkedin" aria-label="linkedin"></i></a> <a class="link-dark me-1" href="https://github.com/vincehass" title="github" target="_blank" rel="noopener"><i class="fa-brands fa-github" aria-label="github"></i></a> <a class="link-dark me-1" href="https://orcid.org/0000-0000-0000-0000" title="orcid" target="_blank" rel="noopener"><i class="ai  ai-orcid"></i></a> <a class="link-dark me-1" href="https://scholar.google.com/citations?user=RVK0V44AAAAJ&amp;hl=en" title="Google Scholar" target="_blank" rel="noopener"><i class="ai  ai-google-scholar"></i></a> <a class="link-dark me-1" href="mailto:nadhir@example.com" title="Email" target="_blank" rel="noopener"><i class="fa-solid fa-envelope" aria-label="envelope"></i></a></p>
 </div>
     <div class="nav-footer-right">
       <ul class="footer-items list-unstyled">
@@ -991,37 +1018,30 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </ul>
 </div>
   </div>
-</footer><script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","descPosition":"bottom","loop":false,"openEffect":"zoom","selector":".lightbox"});
-(function() {
-  let previousOnload = window.onload;
-  window.onload = () => {
-    if (previousOnload) {
-      previousOnload();
-    }
-    lightboxQuarto.on('slide_before_load', (data) => {
-      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
-      const href = trigger.getAttribute('href');
-      if (href !== null) {
-        const imgEl = window.document.querySelector(`a[href="${href}"] img`);
-        if (imgEl !== null) {
-          const srcAttr = imgEl.getAttribute("src");
-          if (srcAttr && srcAttr.startsWith("data:")) {
-            slideConfig.href = srcAttr;
-          }
+</footer><script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","loop":false,"openEffect":"zoom","descPosition":"bottom","selector":".lightbox"});
+window.onload = () => {
+  lightboxQuarto.on('slide_before_load', (data) => {
+    const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+    const href = trigger.getAttribute('href');
+    if (href !== null) {
+      const imgEl = window.document.querySelector(`a[href="${href}"] img`);
+      if (imgEl !== null) {
+        const srcAttr = imgEl.getAttribute("src");
+        if (srcAttr && srcAttr.startsWith("data:")) {
+          slideConfig.href = srcAttr;
         }
-      } 
-    });
-  
-    lightboxQuarto.on('slide_after_load', (data) => {
-      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
-      if (window.Quarto?.typesetMath) {
-        window.Quarto.typesetMath(slideNode);
       }
-    });
-  
-  };
-  
-})();
+    } 
+  });
+
+  lightboxQuarto.on('slide_after_load', (data) => {
+    const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+    if (window.Quarto?.typesetMath) {
+      window.Quarto.typesetMath(slideNode);
+    }
+  });
+
+};
           </script>
 
 

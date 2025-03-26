@@ -1,0 +1,51 @@
+---
+title: "Approximate Bayesian Optimisation for Neural Networks"
+description: |
+  A novel approach to neural network hyperparameter optimization using approximate Bayesian methods.
+date: 2021-08-26
+categories:
+  - Bayesian Optimization
+  - Neural Networks
+  - Hyperparameter Tuning
+  - Machine Learning
+image: featured.jpg
+image-alt: "Visualization of Bayesian optimization search space for neural network hyperparameters"
+---
+
+## Overview
+
+Hyperparameter optimization is a critical challenge in deep learning. In this work, we introduce an approximate Bayesian optimization approach that efficiently explores the hyperparameter space for neural networks, significantly reducing the computational cost compared to traditional methods.
+
+## Abstract
+
+Neural network performance depends heavily on hyperparameter choices, but finding optimal configurations is computationally expensive. Traditional Bayesian optimization methods provide a principled approach but still require many function evaluations. In this paper, we introduce an approximate Bayesian optimization framework specifically designed for neural networks that leverages low-fidelity approximations to accelerate the optimization process.
+
+Our method uses a multi-fidelity Gaussian process model that correlates the performance of neural networks trained with different computational budgets (e.g., training epochs, dataset sizes). This allows the optimizer to perform most evaluations on cheap approximations while strategically selecting when to evaluate the expensive true objective. We demonstrate empirically that our approach significantly outperforms standard Bayesian optimization and other hyperparameter optimization methods across various neural network architectures and datasets.
+
+## Authors
+
+**N Hass**, I Rish
+
+## Publication
+
+arXiv preprint arXiv:2108.12461, 2021
+
+## Citation
+
+```bibtex
+@article{hass2021approximate,
+  title={Approximate Bayesian Optimisation for Neural Networks},
+  author={Hass, Nadhir and Rish, Irina},
+  journal={arXiv preprint arXiv:2108.12461},
+  year={2021}
+}
+```
+
+## Impact
+
+This work has been cited in multiple subsequent studies on efficient hyperparameter optimization methods, particularly for resource-intensive deep learning models. The approximate Bayesian approach has proven especially valuable for researchers and practitioners with limited computational resources.
+
+## Links
+
+- [arXiv Preprint](https://arxiv.org/abs/2108.12461)
+- [GitHub Repository](https://github.com/vincehass/approximate-bayesian-optimization) 

@@ -1,0 +1,76 @@
+---
+title: "Understanding Generative Flow Networks"
+subtitle: "A Powerful Framework for Sequential Generation"
+description: |
+  An introduction to Generative Flow Networks (GFNs) and how they are transforming approaches to sequential object generation and exploration.
+date: 2023-09-15
+categories:
+  - Deep Learning
+  - Generative Models
+  - Generative Flow Networks
+  - Exploration
+image: featured.jpg
+image-alt: "Conceptual visualization of a Generative Flow Network with sequential object generation"
+---
+
+## Introduction to Generative Flow Networks
+
+Generative Flow Networks (GFNs) represent a novel and powerful framework for learning to sample complex objects sequentially, such as molecules, images, or neural network architectures. Unlike Generative Adversarial Networks (GANs) or diffusion models, GFNs focus specifically on learning to generate objects according to a specified energy function or reward.
+
+## How GFNs Work
+
+At their core, GFNs learn a stochastic policy for sequential generation. They can be seen as extending concepts from reinforcement learning to the domain of generative modeling. The key insight of GFNs is to learn a flow function over the possible trajectories that lead to the generation of an object.
+
+Consider the process of generating a molecule atom by atom. At each step:
+
+1. The GFN chooses which atom to add next
+2. It decides where to place the atom
+3. It determines the bonds to create
+
+This process continues until a complete molecule is formed. The beauty of GFNs is that they can be trained to produce samples with probabilities proportional to a reward function, such as a molecule's binding affinity to a target protein.
+
+## Key Components of GFNs
+
+GFNs consist of several key components:
+
+- **State space**: The space of complete objects (e.g., valid molecules)
+- **Actions**: Transitions that build the object step by step
+- **Trajectories**: Sequences of states and actions leading to a final object
+- **Flow functions**: Assigns a non-negative number to each trajectory
+- **Policy**: Determines which action to take given the current state
+
+## Advantages Over Other Generative Models
+
+GFNs offer several advantages over traditional generative models:
+
+1. **Diversity**: They naturally promote diversity in the generated samples
+2. **Controlled generation**: They allow fine-grained control over the generation process
+3. **Exploration**: They excel at exploring complex, high-dimensional spaces
+4. **Amortized generation**: Once trained, they can quickly sample new objects
+
+## My Work with GFNs
+
+In our recent work on GFlowOut (ICML 2023), we've applied GFNs to the problem of neural network regularization. Instead of using fixed dropout masks, we use a GFN to learn a distribution over dropout masks that optimizes for model performance.
+
+This approach has shown significant improvements over traditional dropout methods and demonstrates how GFNs can be applied beyond typical generative tasks to improve fundamental deep learning techniques.
+
+## Future Directions
+
+The field of GFNs is rapidly evolving, with promising applications in:
+
+- **Drug discovery**: Finding molecules with specific properties
+- **Neural architecture search**: Automatically designing neural networks
+- **Protein design**: Engineering proteins with desired functions
+- **Creativity**: Generating diverse artistic content
+
+I'm particularly excited about exploring how GFNs can be combined with other techniques like diffusion models and applied to time series forecasting problems.
+
+## Conclusion
+
+Generative Flow Networks represent a powerful new framework that bridges reinforcement learning and generative modeling. They excel at generating diverse objects according to specified criteria, making them valuable tools for exploration and discovery. As research in this area continues to advance, we can expect GFNs to play an increasingly important role in machine learning applications that require controlled generation of complex objects.
+
+## References
+
+- Bengio, Y. et al. (2021). Flow Network based Generative Models for Non-Iterative Diverse Candidate Generation. Advances in Neural Information Processing Systems.
+- Liu, D. et al. (2023). GFlowOut: Dropout with Generative Flow Networks. International Conference on Machine Learning.
+- Malkin, N. et al. (2022). Trajectory Balance: Improved Credit Assignment in GFlowNets. Advances in Neural Information Processing Systems. 

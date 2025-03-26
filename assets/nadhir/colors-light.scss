@@ -1,0 +1,25 @@
+/*-- scss:defaults --*/
+
+// Colors for Nadhir's website - Light Theme
+$nadhir-primary: #0d47a1; // Dark blue
+$nadhir-primary-light: #5472d3; // Light blue
+$nadhir-secondary: #2196f3; // Medium blue
+$nadhir-secondary-light: #6ec6ff; // Very light blue
+$nadhir-accent: #e3f2fd; // Extra light blue (almost white)
+$nadhir-accent-light: #ffffff; // White
+$nadhir-accent-dark: #bbdefb; // Light blue accent
+$nadhir-bg-0: #ffffff; // White background
+$nadhir-bg-1: #f5f5f5; // Light gray background
+$nadhir-bg-00: rgba(0, 0, 0, 0.1); // Semi-transparent black for shadows
+
+// Export variables
+$spc-primary: $nadhir-primary;
+$spc-primary-light: $nadhir-primary-light;
+$spc-secondary: $nadhir-secondary;
+$spc-secondary-light: $nadhir-secondary-light;
+$spc-accent: $nadhir-accent;
+$spc-accent-light: $nadhir-accent-light;
+$spc-accent-dark: $nadhir-accent-dark;
+$spc-bg-0: $nadhir-bg-0;
+$spc-bg-1: $nadhir-bg-1;
+$spc-bg-00: $nadhir-bg-00;

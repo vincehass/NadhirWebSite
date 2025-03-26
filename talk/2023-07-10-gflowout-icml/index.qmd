@@ -1,0 +1,64 @@
+---
+title: "GFlowOut: Dropout with Generative Flow Networks"
+subtitle: "ICML 2023 Conference Presentation"
+description: |
+  A presentation of our novel regularization technique using Generative Flow Networks at the International Conference on Machine Learning.
+date: 2023-07-10
+categories:
+  - Conference
+  - Deep Learning
+  - Generative Flow Networks
+  - Regularization
+image: featured.jpg
+image-alt: "Presenter giving a talk about GFlowOut at ICML 2023"
+---
+
+## Presentation Overview
+
+In this talk presented at the International Conference on Machine Learning (ICML) 2023, I discussed our work on GFlowOut, a novel dropout regularization technique that leverages Generative Flow Networks (GFNs) to improve model generalization.
+
+## Abstract
+
+Dropout is a widely used regularization technique for deep neural networks that helps prevent overfitting by randomly "dropping" units during training. While effective, traditional dropout samples masks from a fixed distribution, which may not be optimal for all architectures or datasets.
+
+In this talk, I presented GFlowOut, our novel approach that uses Generative Flow Networks to learn a distribution over dropout masks optimized for the specific task at hand. By learning to sample masks according to a reward function that encourages exploration of the model's subnetwork space, GFlowOut achieves better regularization than standard dropout and its variants.
+
+Our experiments on image classification, uncertainty estimation, and out-of-distribution detection tasks demonstrate that GFlowOut consistently outperforms standard dropout, MC dropout, and other recent dropout variants.
+
+## Key Points Covered
+
+- Introduction to Generative Flow Networks (GFNs) and their application to regularization
+- Mathematical framework for learning distributions over dropout masks
+- Experimental results on CIFAR-10, CIFAR-100, and ImageNet
+- Comparison with state-of-the-art dropout methods
+- Applications to uncertainty estimation and robustness
+- Future directions for GFN-based regularization
+
+## Impact and Reception
+
+The presentation was well-received, with engaging questions from the audience about the scalability of the approach to larger models and the potential for extending the method to other forms of regularization beyond dropout.
+
+## Slides and Materials
+
+- [Presentation Slides (PDF)](#)
+- [ICML Paper Link](https://proceedings.mlr.press/v202/liu23l.html)
+- [GitHub Repository](https://github.com/GFNOrg/gflowout)
+
+## Related Work
+
+This presentation builds on our prior work on Generative Flow Networks and their applications to various machine learning problems. For more information on GFNs, please see:
+
+- Bengio, Y. et al. (2021). Flow Network based Generative Models for Non-Iterative Diverse Candidate Generation. NeurIPS.
+- Malkin, N. et al. (2022). Trajectory Balance: Improved Credit Assignment in GFlowNets. NeurIPS.
+
+## Citation
+
+```bibtex
+@inproceedings{liu2023gflowout,
+  title={GFlowOut: Dropout with Generative Flow Networks},
+  author={Liu, Dianbo and Jain, Moksh and Dossou, Bonaventure F. P. and Shen, Qianli and Lahlou, Salem and Goyal, Anirudh and Hass, Nadhir and others},
+  booktitle={International Conference on Machine Learning},
+  pages={21715--21729},
+  year={2023}
+}
+``` 

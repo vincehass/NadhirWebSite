@@ -1,0 +1,55 @@
+---
+title: "GFlowOut: Dropout with Generative Flow Networks"
+subtitle: "A novel approach to regularization in neural networks"
+date: 2023-07-10
+author:
+  - name: Nadhir Vincent Hass
+    orcid: 0000-0000-0000-0000
+    affiliation: Machine Learning Research
+categories:
+  - Machine Learning
+  - Neural Networks
+  - Regularization
+image: featured.jpg
+---
+
+## Abstract
+
+This paper introduces GFlowOut, a novel regularization technique that combines elements of dropout and generative flow networks to improve neural network performance and generalization. By leveraging probabilistic flow-based models, GFlowOut creates more robust feature representations that are less prone to overfitting on training data.
+
+## Introduction
+
+Dropout has been a fundamental regularization technique in deep learning, but has limitations in capturing complex dependencies between neurons. This work extends traditional dropout by incorporating principles from generative flow networks, creating a more flexible approach to regularization.
+
+## Overview
+
+Regularization is crucial for training deep neural networks that generalize well to unseen data. In this paper, we introduce **GFlowOut**, a novel regularization technique that leverages Generative Flow Networks (GFNs) to perform dropout with improved exploration of model subspaces.
+
+## Authors
+
+D Liu, M Jain, BFP Dossou, Q Shen, S Lahlou, A Goyal, **N Hass**, et al.
+
+## Publication
+
+International Conference on Machine Learning (ICML), 21715-21729, 2023
+
+## Citation
+
+```bibtex
+@inproceedings{liu2023gflowout,
+  title={GFlowOut: Dropout with Generative Flow Networks},
+  author={Liu, Dianbo and Jain, Moksh and Dossou, Bonaventure F. P. and Shen, Qianli and Lahlou, Salem and Goyal, Anirudh and Hass, Nadhir and others},
+  booktitle={International Conference on Machine Learning},
+  pages={21715--21729},
+  year={2023}
+}
+```
+
+## Impact
+
+This work has been cited 24 times since its publication, demonstrating its important contribution to the field of deep learning regularization. The GFlowOut technique has been adopted by researchers looking to improve generalization in various deep learning applications.
+
+## Links
+
+- [Paper (ICML)](https://proceedings.mlr.press/v202/liu23l.html)
+- [GitHub Repository](https://github.com/GFNOrg/gflowout) 

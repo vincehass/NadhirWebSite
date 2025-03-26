@@ -1,9 +1,13 @@
 # Freeze computed outputs
-execute: 
-  freeze: true
+execute:
+  freeze: auto
 
 # Enable banner style title blocks
-title-block-banner: true
+title-block-banner: "#EDF3F9"
+title-block-banner-color: body
+title-block-categories: true
+title-block-banner-style: minimal
+title-block-style: plain
 
 # Default fields for citation
 citation: true
@@ -15,19 +19,33 @@ toc-title: Table of contents
 toc-location: right
 
 # Wrap overflow code
-format: 
-  html: 
+format:
+  html:
     code-overflow: wrap
-    template-partials: 
+    template-partials:
       - ../_partials/title-block-link-buttons/title-block.html
 
 # Post info
-author: Silvia Canelón
+author: Nadhir Vincent Hass
 
 # Enable comments
 comments:
   utterances:
-    repo: spcanelon/silvia
+    repo: vincehass/nadhir
     issue-term: title
-    theme: boxy-light
-    label: "comments :crystal_ball:"
+    theme: github-light
+
+# image-alt: No alt text was provided for this post image
+# use false to remove the default image from img folder
+# image-placeholder: false
+
+# freeze computational output
+# (See https://quarto.org/docs/projects/code-execution.html#freeze)
+# always run R and Python code, can be adapted
+# execute:
+#   freeze: auto
+
+code-fold: true
+code-tools:
+  source: false
+  toggle: true

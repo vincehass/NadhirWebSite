@@ -2,13 +2,12 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.6.39">
+<meta name="generator" content="quarto-1.4.550">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="description" content="This is a home for invited talks and workshops, each linked with accompanying materials.  A collection of slide decks can be found at slides.silviacanelon.com">
 
-<title>Talks – Silvia Canelón</title>
+<title>Talks</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -31,7 +30,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
-<link href="../assets/silvia/img/logo_rounded.svg" rel="icon" type="image/svg+xml">
+<link href="../assets/nadhir/img/logo_rounded.svg" rel="icon" type="image/svg+xml">
 <script src="../site_libs/quarto-listing/list.min.js"></script>
 <script src="../site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="../site_libs/quarto-html/quarto.js"></script>
@@ -39,12 +38,12 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-4798f49a90c852830ec6262f6cac104c.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark-ba45ce9dc5cd1a65c393561f93ac8f81.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-ee1fb94ed73a03fd99aafc7557ba3b54.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../site_libs/bootstrap/bootstrap-dark-b46977b051dc0d7981d6964f332a6c3e.min.css" rel="prefetch" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
 <link href="../site_libs/quarto-contrib/fontawesome6-1.2.0/all.min.css" rel="stylesheet">
 <link href="../site_libs/quarto-contrib/fontawesome6-1.2.0/latex-fontsize.css" rel="stylesheet">
 <link href="../site_libs/quarto-contrib/academicons-1.9.2/all.css" rel="stylesheet">
@@ -79,20 +78,20 @@ ul.task-list li input[type="checkbox"] {
 <script>
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
+    const listingTargetEl = window.document.querySelector('#listing-talks .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
       return; 
     }
 
     const options = {
-      valueNames: ['listing-title','listing-author','listing-categories','listing-date','listing-image',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-date','listing-title','listing-subtitle','listing-description','listing-categories','listing-image',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: ["listing-date","listing-title","listing-author","listing-subtitle","listing-image","listing-description"],
+      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description","listing-categories"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
+    window['quarto-listings']['listing-talks'] = new List('listing-talks', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -105,12 +104,11 @@ ul.task-list li input[type="checkbox"] {
     }
   })
   </script>
-<!-- umami cloud -->
-<script async="" src="https://analytics.umami.is/script.js" data-website-id="6ba73b87-31aa-44ac-8d5e-e0dad5760753" data-do-not-track="true">
-</script>
-<link rel="stylesheet" href="../assets/listing-default.css">
+<!-- Umami Analytics -->
+<!-- Replace this with your actual Umami script when ready to deploy -->
+<script async="" defer="" data-website-id="place-your-website-id-here" src="https://analytics.example.com/umami.js"></script>
 
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
   <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
 <script type="text/javascript">
@@ -141,10 +139,10 @@ window.Quarto = {
 </script>
 
 <meta name="twitter:title" content="Talks">
-<meta name="twitter:description" content="This is a home for invited talks and workshops, each linked with accompanying materials. A collection of slide decks can be found at slides.silviacanelon.com">
-<meta name="twitter:image" content="https://silviacanelon.com/talk/2024-07-10-data-equity-ldi/featured.png">
-<meta name="twitter:creator" content="@spcanelon">
-<meta name="twitter:site" content="@spcanelon">
+<meta name="twitter:description" content="Conference and Workshop Presentations">
+<meta name="twitter:image" content="https://nadhirvincent.com/talk/2024-07-10-data-equity-ldi/featured.png">
+<meta name="twitter:creator" content="@nadhirvincent">
+<meta name="twitter:site" content="@nadhirvincent">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:image-height" content="529">
 <meta name="twitter:image-width" content="1008">
@@ -153,19 +151,19 @@ window.Quarto = {
 <body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top">
+  <header id="quarto-header" class="headroom fixed-top quarto-banner">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a href="../index.html" class="navbar-brand navbar-brand-logo">
-    <img src="../assets/silvia/img/logo_rounded.svg" alt="" class="navbar-logo">
+    <a href="../" class="navbar-brand navbar-brand-logo">
+    <img src="../assets/nadhir/img/logo_rounded.svg" alt="" class="navbar-logo">
     </a>
-    <a class="navbar-brand" href="../index.html">
-    <span class="navbar-title">Silvia Canelón</span>
+    <a class="navbar-brand" href="../">
+    <span class="navbar-title">Nadhir Vincent Hass</span>
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
@@ -192,20 +190,40 @@ window.Quarto = {
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
-            <div class="quarto-navbar-tools">
-    <a href="https://www.github.com/spcanelon/silvia" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-github"></i></a>
+          <div class="quarto-navbar-tools">
+    <a href="https://www.github.com/vincehass" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-github"></i></a>
   <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
 </div>
       </div> <!-- /container-fluid -->
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<header id="title-block-header" class="quarto-title-block default page-columns">
+<div id="title-block-header-title" class="quarto-title page-columns page-full page-layout-full featured-image p-4" style="background-image: url(featured.png), url(featured.jpg), url(../featured.jpg);">
+<h1 class="title">Talks</h1>
+<p class="subtitle lead">Conference and Workshop Presentations</p>
+</div>
+
+
+
+<div class="quarto-title-meta column-page-left">
+
+    
+  
+    
+  </div>
+  
+
+
+
+</header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(13)</span></div><div class="category" data-category="Bayesian Optimization">Bayesian Optimization <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Benchmarking">Benchmarking <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Conference">Conference <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Deep Learning">Deep Learning <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Generative Flow Networks">Generative Flow Networks <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Hyperparameter Tuning">Hyperparameter Tuning <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Industry">Industry <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Out-of-Distribution">Out-of-Distribution <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Practical Applications">Practical Applications <span class="quarto-category-count">(1)</span></div><div class="category" data-category="R">R <span class="quarto-category-count">(6)</span></div><div class="category" data-category="R-Ladies">R-Ladies <span class="quarto-category-count">(3)</span></div><div class="category" data-category="Regularization">Regularization <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Time Series">Time Series <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Workshop">Workshop <span class="quarto-category-count">(1)</span></div><div class="category" data-category="data viz">data viz <span class="quarto-category-count">(1)</span></div><div class="category" data-category="education">education <span class="quarto-category-count">(6)</span></div><div class="category" data-category="geospatial">geospatial <span class="quarto-category-count">(1)</span></div><div class="category" data-category="journalism">journalism <span class="quarto-category-count">(1)</span></div><div class="category" data-category="leaflet">leaflet <span class="quarto-category-count">(1)</span></div><div class="category" data-category="research">research <span class="quarto-category-count">(4)</span></div><div class="category" data-category="rvest">rvest <span class="quarto-category-count">(1)</span></div><div class="category" data-category="tidygeocoder">tidygeocoder <span class="quarto-category-count">(1)</span></div><div class="category" data-category="tidyverse">tidyverse <span class="quarto-category-count">(1)</span></div><div class="category" data-category="tutorial">tutorial <span class="quarto-category-count">(1)</span></div><div class="category" data-category="useR">useR <span class="quarto-category-count">(1)</span></div><div class="category" data-category="workshop">workshop <span class="quarto-category-count">(5)</span></div><div class="category" data-category="xaringan">xaringan <span class="quarto-category-count">(3)</span></div></div></div>
 <!-- main -->
-<main class="content column-page" id="quarto-document-content">
+<main class="content quarto-banner-title-block column-page-left" id="quarto-document-content">
 
 <!-- source: https://github.com/gadenbuie/garrickadenbuie-com/blob/main/_partials/title-block-link-buttons/title-block.html -->
 <!-- 
@@ -214,654 +232,547 @@ window.Quarto = {
 -->
 <!-- <header id="title-block-header" class="quarto-title-block default page-columns"> -->
 <!-- <div class="quarto-title page-columns page-full featured-image p-4" style="background-image: url(featured.png), url(featured.jpg), url(../featured.jpg);"> -->
-<header id="title-block-header" class="quarto-title-block default page-columns">
-<div id="title-block-header-title" class="quarto-title page-columns page-full page-layout-full featured-image p-4" style="background-image: url(featured.png), url(featured.jpg), url(../featured.jpg);">
-<h1 class="title">Talks</h1>
-</div>
 
-<div>
-  <div id="title-block-title-desc" class="description pt-4">
-    <p>This is a home for invited talks and workshops, each linked with accompanying materials.<br> A collection of slide decks can be found at <a href="https://slides.silviacanelon.com">slides.silviacanelon.com</a></p>
+
+
+<section id="presentations-and-talks" class="level2">
+<h2 class="anchored" data-anchor-id="presentations-and-talks">Presentations and Talks</h2>
+<p>I regularly present my research and practical applications of machine learning at academic conferences, workshops, and industry events. My talks cover topics such as generative models, time series forecasting, Bayesian optimization, and deep learning techniques.</p>
+<div id="listing-talks" class="quarto-listing quarto-listing-container-grid">
+<div class="listing-actions-group">
+   <div class="input-group input-group-sm quarto-listing-sort">
+     <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
+     <select id="listing-talks-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-talks'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
+       <option value="" disabled="" selected="" hidden="">Order By</option>
+       <option value="index" data-direction="asc">Default</option>
+         <option value="listing-title" data-direction="asc">
+          Title
+        </option>
+         <option value="listing-date-sort" data-direction="asc">
+          Date - Oldest
+        </option>
+         <option value="listing-date-sort" data-direction="desc">
+          Date - Newest
+        </option>
+     </select>
   </div>
+    <div class="input-group input-group-sm quarto-listing-filter">
+      <span class="input-group-text"><i class="bi bi-search"></i></span>
+      <input type="text" class="search form-control" placeholder="Filter">
+    </div>
 </div>
-
-
-<div class="quarto-title-meta column-page">
-
-    
-  
-    
-  </div>
-  
-
-
-
-</header>
-
-
-
-
-
-
-<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
-<div class="list quarto-listing-default">
-<div class="quarto-post image-left" data-index="0" data-categories="am91cm5hbGlzbSUyQ3Jlc2VhcmNoJTJDZGF0YSUyMHZpeg==" data-listing-date-sort="1720630800000" data-listing-file-modified-sort="1740675685621" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="93">
-<div class="thumbnail">
-<p><a href="../talk/2024-07-10-data-equity-ldi/index.html" class="no-external"></a></p><a href="../talk/2024-07-10-data-equity-ldi/index.html" class="no-external">
-<p><img loading="lazy" src="../talk/2024-07-10-data-equity-ldi/featured.png" class="thumbnail-image"></p>
-</a><p><a href="../talk/2024-07-10-data-equity-ldi/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../talk/2024-07-10-data-equity-ldi/index.html" class="no-external">Considering Equity in Data Visualization</a>
-</h3>
-<div class="listing-subtitle">
-<a href="../talk/2024-07-10-data-equity-ldi/index.html" class="no-external">Invited talk for the </a><a href="https://ldi.upenn.edu/education/penn-ldi-training-programs/sumr/">Leonard Davis Institute of Health Economics Summer Undergraduate Mentored Research Program (SUMR)</a>
+<div class="list grid quarto-listing-cols-3">
+<div class="g-col-1" data-index="0" data-categories="journalism,research,data viz" data-listing-date-sort="1720627200000" data-listing-file-modified-sort="1742964949441" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="93">
+<a href="../talk/2024-07-10-data-equity-ldi/index.html" class="quarto-grid-link">
+</a><div class="quarto-grid-item card h-100 card-left"><a href="../talk/2024-07-10-data-equity-ldi/index.html" class="quarto-grid-link">
+<p class="card-img-top">
+<img src="../talk/2024-07-10-data-equity-ldi/featured.png" class="thumbnail-image card-img" style="height: 100%;">
+</p>
+</a><div class="card-body post-contents"><a href="../talk/2024-07-10-data-equity-ldi/index.html" class="quarto-grid-link">
+<h5 class="no-anchor card-title listing-title">
+Considering Equity in Data Visualization
+</h5>
+</a><div class="card-subtitle listing-subtitle"><a href="../talk/2024-07-10-data-equity-ldi/index.html" class="quarto-grid-link">
+Invited talk for the </a><a href="https://ldi.upenn.edu/education/penn-ldi-training-programs/sumr/">Leonard Davis Institute of Health Economics Summer Undergraduate Mentored Research Program (SUMR)</a>
 </div>
 <div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('am91cm5hbGlzbQ=='); return false;">
+<div class="listing-category" onclick="window.quartoListingCategory('journalism'); return false;">
 journalism
 </div>
-<div class="listing-category" onclick="window.quartoListingCategory('cmVzZWFyY2g='); return false;">
+<div class="listing-category" onclick="window.quartoListingCategory('research'); return false;">
 research
 </div>
-<div class="listing-category" onclick="window.quartoListingCategory('ZGF0YSUyMHZpeg=='); return false;">
+<div class="listing-category" onclick="window.quartoListingCategory('data viz'); return false;">
 data viz
 </div>
 </div>
+<div class="card-text listing-description">
+Emily and I had the pleasure of presenting to the 2024 cohort of LDI Summer Undergraduate Mentored Research Program (SUMR). The materials for this interactive presentation…
 </div>
-<div class="metadata">
-<a href="../talk/2024-07-10-data-equity-ldi/index.html" class="no-external">
+<div class="card-attribution card-text-small end">
 <div class="listing-date">
-Jul 10, 2024
-</div>
-<div class="listing-author">
-Silvia Canelón, Emily Seeburger
-</div>
-</a>
+2024-07-10
 </div>
 </div>
-<div class="quarto-post image-left" data-index="1" data-categories="cmVzZWFyY2g=" data-listing-date-sort="1711494000000" data-listing-file-modified-sort="1740675814832" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="73">
-<div class="thumbnail">
-<p><a href="../talk/2024-03-26-env-justice/index.html" class="no-external"></a></p><a href="../talk/2024-03-26-env-justice/index.html" class="no-external">
-<p><img loading="lazy" src="../talk/2024-03-26-env-justice/featured.png" class="thumbnail-image"></p>
-</a><p><a href="../talk/2024-03-26-env-justice/index.html" class="no-external"></a></p>
 </div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../talk/2024-03-26-env-justice/index.html" class="no-external">Environmental Justice and Policy Panel</a>
-</h3>
-<div class="listing-subtitle">
-<a href="../talk/2024-03-26-env-justice/index.html" class="no-external">Panel discussion hosted by </a><a href="https://www.pspdg.com">Penn Science Policy and Diplomacy Group</a> &amp; <a href="https://www.climateleadersatpenn.com/">Climate Leaders <span class="citation" data-cites="Penn">@Penn</span></a>
+</div>
+
+</div>
+<div class="g-col-1" data-index="1" data-categories="research" data-listing-date-sort="1711490400000" data-listing-file-modified-sort="1742964949430" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="73">
+<a href="../talk/2024-03-26-env-justice/index.html" class="quarto-grid-link">
+</a><div class="quarto-grid-item card h-100 card-left"><a href="../talk/2024-03-26-env-justice/index.html" class="quarto-grid-link">
+<p class="card-img-top">
+<img src="../talk/2024-03-26-env-justice/featured.png" class="thumbnail-image card-img" style="height: 100%;">
+</p>
+</a><div class="card-body post-contents"><a href="../talk/2024-03-26-env-justice/index.html" class="quarto-grid-link">
+<h5 class="no-anchor card-title listing-title">
+Environmental Justice and Policy Panel
+</h5>
+</a><div class="card-subtitle listing-subtitle"><a href="../talk/2024-03-26-env-justice/index.html" class="quarto-grid-link">
+Panel discussion hosted by </a><a href="https://www.pspdg.com">Penn Science Policy and Diplomacy Group</a> &amp; <a href="https://www.climateleadersatpenn.com/">Climate Leaders <span class="citation" data-cites="Penn">@Penn</span></a>
 </div>
 <div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('cmVzZWFyY2g='); return false;">
+<div class="listing-category" onclick="window.quartoListingCategory('research'); return false;">
 research
 </div>
 </div>
+<div class="card-text listing-description">
+Source: Climate Leaders <span class="citation" data-cites="Penn">@Penn</span> on LinkedIn
 </div>
-<div class="metadata">
-<a href="../talk/2024-03-26-env-justice/index.html" class="no-external">
+<div class="card-attribution card-text-small end">
 <div class="listing-date">
-Mar 26, 2024
+2024-03-26
 </div>
-<div class="listing-author">
-Silvia Canelón
+</div>
+</div>
+</div>
+
+</div>
+<div class="g-col-1" data-index="2" data-categories="Industry,Bayesian Optimization,Hyperparameter Tuning,Practical Applications" data-listing-date-sort="1700024400000" data-listing-file-modified-sort="1742967001561" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="332">
+<a href="../talk/2023-11-15-bayesian-optimization-industry/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="../talk/2023-11-15-bayesian-optimization-industry/featured.jpg" class="thumbnail-image card-img" style="height: 100%;" alt="Presenter giving an industry talk on Bayesian optimization techniques">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Efficient ML Model Tuning with Bayesian Optimization
+</h5>
+<div class="card-subtitle listing-subtitle">
+Industry Talk at ML Summit 2023
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Industry'); return false;">
+Industry
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Bayesian Optimization'); return false;">
+Bayesian Optimization
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Hyperparameter Tuning'); return false;">
+Hyperparameter Tuning
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Practical Applications'); return false;">
+Practical Applications
+</div>
+</div>
+<div class="card-text listing-description">
+<p>A practical presentation for industry practitioners on implementing Bayesian optimization techniques for efficient hyperparameter tuning.</p>
+</div>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+2023-11-15
+</div>
+</div>
+</div>
 </div>
 </a>
 </div>
-</div>
-<div class="quarto-post image-left" data-index="2" data-categories="cmVzZWFyY2g=" data-listing-date-sort="1697054400000" data-listing-file-modified-sort="1734539080815" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="30">
-<div class="thumbnail">
-<p><a href="../talk/2023-10-11-epis4equity/index.html" class="no-external"></a></p><a href="../talk/2023-10-11-epis4equity/index.html" class="no-external">
-<p><img loading="lazy" src="../talk/2023-10-11-epis4equity/featured.png" class="thumbnail-image"></p>
-</a><p><a href="../talk/2023-10-11-epis4equity/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../talk/2023-10-11-epis4equity/index.html" class="no-external">Place-based Interventions to Promote Structural Change &amp; Equity</a>
-</h3>
-<div class="listing-subtitle">
-<a href="../talk/2023-10-11-epis4equity/index.html" class="no-external">Talk for the </a><a href="https://www.phila.gov/departments/department-of-public-health/">Philadelphia Department of Public Health</a> Epis for Equity work group, highlighting the placed-based intervention projects at the <a href="https://www.urbanhealthlab.org">Urban Health Lab</a>
+<div class="g-col-1" data-index="3" data-categories="research" data-listing-date-sort="1697050800000" data-listing-file-modified-sort="1742964949424" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="30">
+<a href="../talk/2023-10-11-epis4equity/index.html" class="quarto-grid-link">
+</a><div class="quarto-grid-item card h-100 card-left"><a href="../talk/2023-10-11-epis4equity/index.html" class="quarto-grid-link">
+<p class="card-img-top">
+<img src="../talk/2023-10-11-epis4equity/featured.png" class="thumbnail-image card-img" style="height: 100%;">
+</p>
+</a><div class="card-body post-contents"><a href="../talk/2023-10-11-epis4equity/index.html" class="quarto-grid-link">
+<h5 class="no-anchor card-title listing-title">
+Place-based Interventions to Promote Structural Change &amp; Equity
+</h5>
+</a><div class="card-subtitle listing-subtitle"><a href="../talk/2023-10-11-epis4equity/index.html" class="quarto-grid-link">
+Talk for the </a><a href="https://www.phila.gov/departments/department-of-public-health/">Philadelphia Department of Public Health</a> Epis for Equity work group, highlighting the placed-based intervention projects at the <a href="https://www.urbanhealthlab.org">Urban Health Lab</a>
 </div>
 <div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('cmVzZWFyY2g='); return false;">
+<div class="listing-category" onclick="window.quartoListingCategory('research'); return false;">
 research
 </div>
 </div>
+<div class="card-text listing-description">
+
+
+<ul>
+<li>Deeply Rooted</li>
+<li>IGNITE: A Randomized Controlled Trial of Concentrated Investment in Black Neighborhoods to Address Structural Racism as a Fundamental Cause of Poor Health</li>
+<li>SP…</li><li></li></ul>
 </div>
-<div class="metadata">
-<a href="../talk/2023-10-11-epis4equity/index.html" class="no-external">
+<div class="card-attribution card-text-small end">
 <div class="listing-date">
-Oct 11, 2023
+2023-10-11
 </div>
-<div class="listing-author">
-Silvia Canelón, Emily Seeburger
+</div>
+</div>
+</div>
+
+</div>
+<div class="g-col-1" data-index="4" data-categories="Conference,Deep Learning,Generative Flow Networks,Regularization" data-listing-date-sort="1688961600000" data-listing-file-modified-sort="1742966926900" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="345">
+<a href="../talk/2023-07-10-gflowout-icml/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="../talk/2023-07-10-gflowout-icml/featured.jpg" class="thumbnail-image card-img" style="height: 100%;" alt="Presenter giving a talk about GFlowOut at ICML 2023">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+GFlowOut: Dropout with Generative Flow Networks
+</h5>
+<div class="card-subtitle listing-subtitle">
+ICML 2023 Conference Presentation
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Conference'); return false;">
+Conference
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Deep Learning'); return false;">
+Deep Learning
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Generative Flow Networks'); return false;">
+Generative Flow Networks
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Regularization'); return false;">
+Regularization
+</div>
+</div>
+<div class="card-text listing-description">
+<p>A presentation of our novel regularization technique using Generative Flow Networks at the International Conference on Machine Learning.</p>
+</div>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+2023-07-10
+</div>
+</div>
+</div>
 </div>
 </a>
 </div>
-</div>
-<div class="quarto-post image-left" data-index="3" data-categories="cmVzZWFyY2glMkNlZHVjYXRpb24=" data-listing-date-sort="1678404600000" data-listing-file-modified-sort="1734483542596" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
-<div class="thumbnail">
-<p><a href="../talk/2023-03-09-penn-community-scholars/index.html" class="no-external"></a></p><a href="../talk/2023-03-09-penn-community-scholars/index.html" class="no-external">
-<p><img loading="lazy" src="../talk/2023-03-09-penn-community-scholars/featured.png" class="thumbnail-image"></p>
-</a><p><a href="../talk/2023-03-09-penn-community-scholars/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../talk/2023-03-09-penn-community-scholars/index.html" class="no-external">Data Analytics 101</a>
-</h3>
-<div class="listing-subtitle">
-<a href="../talk/2023-03-09-penn-community-scholars/index.html" class="no-external">Invited talk for the </a><a href="https://reachpenn.com/programs/community-scholars-program/">Penn Community Scholars Program</a> highlighting practical ways data can be leveraged to support community-academic partnerships
+<div class="g-col-1" data-index="5" data-categories="research,education" data-listing-date-sort="1678401000000" data-listing-file-modified-sort="1742964949423" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+<a href="../talk/2023-03-09-penn-community-scholars/index.html" class="quarto-grid-link">
+</a><div class="quarto-grid-item card h-100 card-left"><a href="../talk/2023-03-09-penn-community-scholars/index.html" class="quarto-grid-link">
+<p class="card-img-top">
+<img src="../talk/2023-03-09-penn-community-scholars/featured.png" class="thumbnail-image card-img" style="height: 100%;">
+</p>
+</a><div class="card-body post-contents"><a href="../talk/2023-03-09-penn-community-scholars/index.html" class="quarto-grid-link">
+<h5 class="no-anchor card-title listing-title">
+Data Analytics 101
+</h5>
+</a><div class="card-subtitle listing-subtitle"><a href="../talk/2023-03-09-penn-community-scholars/index.html" class="quarto-grid-link">
+Invited talk for the </a><a href="https://reachpenn.com/programs/community-scholars-program/">Penn Community Scholars Program</a> highlighting practical ways data can be leveraged to support community-academic partnerships
 </div>
 <div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('cmVzZWFyY2g='); return false;">
+<div class="listing-category" onclick="window.quartoListingCategory('research'); return false;">
 research
 </div>
-<div class="listing-category" onclick="window.quartoListingCategory('ZWR1Y2F0aW9u'); return false;">
+<div class="listing-category" onclick="window.quartoListingCategory('education'); return false;">
 education
 </div>
 </div>
+<div class="card-text listing-description">
+
 </div>
-<div class="metadata">
-<a href="../talk/2023-03-09-penn-community-scholars/index.html" class="no-external">
+<div class="card-attribution card-text-small end">
 <div class="listing-date">
-Mar 9, 2023
-</div>
-<div class="listing-author">
-Silvia Canelón, Emily Seeburger
-</div>
-</a>
+2023-03-09
 </div>
 </div>
-<div class="quarto-post image-left" data-index="4" data-categories="UiUyQ2dlb3NwYXRpYWw=" data-listing-date-sort="1668117600000" data-listing-file-modified-sort="1695591560412" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="72">
-<div class="thumbnail">
-<p><a href="../talk/2022-11-10-thinking-big/index.html" class="no-external"></a></p><a href="../talk/2022-11-10-thinking-big/index.html" class="no-external">
-<p><img loading="lazy" src="../talk/2022-11-10-thinking-big/featured.png" class="thumbnail-image"></p>
-</a><p><a href="../talk/2022-11-10-thinking-big/index.html" class="no-external"></a></p>
 </div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../talk/2022-11-10-thinking-big/index.html" class="no-external">Thinking Big with Maps in R</a>
-</h3>
-<div class="listing-subtitle">
-<a href="../talk/2022-11-10-thinking-big/index.html" class="no-external">Tips on Wrangling Large Vector Data into Interactive Maps</a>
+</div>
+
+</div>
+<div class="g-col-1" data-index="6" data-categories="R,geospatial" data-listing-date-sort="1668114000000" data-listing-file-modified-sort="1742964949387" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="72">
+<a href="../talk/2022-11-10-thinking-big/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="../talk/2022-11-10-thinking-big/featured.png" class="thumbnail-image card-img" style="height: 100%;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Thinking Big with Maps in R
+</h5>
+<div class="card-subtitle listing-subtitle">
+Tips on Wrangling Large Vector Data into Interactive Maps
 </div>
 <div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('Ug=='); return false;">
+<div class="listing-category" onclick="window.quartoListingCategory('R'); return false;">
 R
 </div>
-<div class="listing-category" onclick="window.quartoListingCategory('Z2Vvc3BhdGlhbA=='); return false;">
+<div class="listing-category" onclick="window.quartoListingCategory('geospatial'); return false;">
 geospatial
 </div>
 </div>
+<div class="card-text listing-description">
+<span>CANSSI Ontario Statistical Software Conference</span> talk on interactive map-making with large vector…
 </div>
-<div class="metadata">
-<a href="../talk/2022-11-10-thinking-big/index.html" class="no-external">
+<div class="card-attribution card-text-small end">
 <div class="listing-date">
-Nov 10, 2022
+2022-11-10
 </div>
-<div class="listing-author">
-Silvia Canelón
+</div>
+</div>
 </div>
 </a>
 </div>
-</div>
-<div class="quarto-post image-left" data-index="5" data-categories="UiUyQ1ItTGFkaWVzJTJDZWR1Y2F0aW9uJTJDd29ya3Nob3AlMkNydmVzdCUyQ3RpZHlnZW9jb2RlciUyQ2xlYWZsZXQ=" data-listing-date-sort="1664492400000" data-listing-file-modified-sort="1734483482411" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="83">
-<div class="thumbnail">
-<p><a href="../talk/2022-09-29-ccd-sips/index.html" class="no-external"></a></p><a href="../talk/2022-09-29-ccd-sips/index.html" class="no-external">
-<p><img loading="lazy" src="../talk/2022-09-29-ccd-sips/featured.png" class="thumbnail-image"></p>
-</a><p><a href="../talk/2022-09-29-ccd-sips/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../talk/2022-09-29-ccd-sips/index.html" class="no-external">Creating the Philly Center City SIPS Interactive Map</a>
-</h3>
-<div class="listing-subtitle">
-<a href="../talk/2022-09-29-ccd-sips/index.html" class="no-external">R-Ladies Philly workshop on webscraping, geocoding, and interactive map-making</a>
+<div class="g-col-1" data-index="7" data-categories="R,R-Ladies,education,workshop,rvest,tidygeocoder,leaflet" data-listing-date-sort="1664488800000" data-listing-file-modified-sort="1742964949385" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="83">
+<a href="../talk/2022-09-29-ccd-sips/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="../talk/2022-09-29-ccd-sips/featured.png" class="thumbnail-image card-img" style="height: 100%;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Creating the Philly Center City SIPS Interactive Map
+</h5>
+<div class="card-subtitle listing-subtitle">
+R-Ladies Philly workshop on webscraping, geocoding, and interactive map-making
 </div>
 <div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('Ug=='); return false;">
+<div class="listing-category" onclick="window.quartoListingCategory('R'); return false;">
 R
 </div>
-<div class="listing-category" onclick="window.quartoListingCategory('Ui1MYWRpZXM='); return false;">
+<div class="listing-category" onclick="window.quartoListingCategory('R-Ladies'); return false;">
 R-Ladies
 </div>
-<div class="listing-category" onclick="window.quartoListingCategory('ZWR1Y2F0aW9u'); return false;">
+<div class="listing-category" onclick="window.quartoListingCategory('education'); return false;">
 education
 </div>
-<div class="listing-category" onclick="window.quartoListingCategory('d29ya3Nob3A='); return false;">
+<div class="listing-category" onclick="window.quartoListingCategory('workshop'); return false;">
 workshop
 </div>
-<div class="listing-category" onclick="window.quartoListingCategory('cnZlc3Q='); return false;">
+<div class="listing-category" onclick="window.quartoListingCategory('rvest'); return false;">
 rvest
 </div>
-<div class="listing-category" onclick="window.quartoListingCategory('dGlkeWdlb2NvZGVy'); return false;">
+<div class="listing-category" onclick="window.quartoListingCategory('tidygeocoder'); return false;">
 tidygeocoder
 </div>
-<div class="listing-category" onclick="window.quartoListingCategory('bGVhZmxldA=='); return false;">
+<div class="listing-category" onclick="window.quartoListingCategory('leaflet'); return false;">
 leaflet
 </div>
 </div>
+<div class="card-text listing-description">
+<span>R-Ladies Philly</span> workshop on webscraping, geocoding, and interactive map-making
 </div>
-<div class="metadata">
-<a href="../talk/2022-09-29-ccd-sips/index.html" class="no-external">
+<div class="card-attribution card-text-small end">
 <div class="listing-date">
-Sep 29, 2022
+2022-09-29
 </div>
-<div class="listing-author">
-Silvia Canelón
+</div>
+</div>
 </div>
 </a>
 </div>
-</div>
-<div class="quarto-post image-left" data-index="6" data-categories="cmVzZWFyY2glMkNFSFIlMkNUQkk=" data-listing-date-sort="1651071600000" data-listing-file-modified-sort="1734483451822" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="267">
-<div class="thumbnail">
-<p><a href="../talk/2022-04-27-dbei-research-day/index.html" class="no-external"></a></p><a href="../talk/2022-04-27-dbei-research-day/index.html" class="no-external">
-<p><img loading="lazy" src="../talk/2022-04-27-dbei-research-day/featured.png" class="thumbnail-image"></p>
-</a><p><a href="../talk/2022-04-27-dbei-research-day/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../talk/2022-04-27-dbei-research-day/index.html" class="no-external">Exploring Traumatic Brain Injury Mechanisms and Severity Using Electronic Health Records</a>
-</h3>
-<div class="listing-subtitle">
-<a href="../talk/2022-04-27-dbei-research-day/index.html" class="no-external">Flashtalk and poster presenting preliminary results for a study on TBI among female patients at Penn Medicine</a>
+<div class="g-col-1" data-index="8" data-categories="Workshop,Time Series,Benchmarking,Out-of-Distribution" data-listing-date-sort="1653192000000" data-listing-file-modified-sort="1742966971581" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="334">
+<a href="../talk/2022-05-22-time-series-ood/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="../talk/2022-05-22-time-series-ood/featured.jpg" class="thumbnail-image card-img" style="height: 100%;" alt="Presenter explaining time series benchmarking concepts at ICLR workshop">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Woods: Benchmarking Out-of-Distribution Generalization in Time Series
+</h5>
+<div class="card-subtitle listing-subtitle">
+Workshop Presentation at ICLR 2022
 </div>
 <div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('cmVzZWFyY2g='); return false;">
-research
+<div class="listing-category" onclick="window.quartoListingCategory('Workshop'); return false;">
+Workshop
 </div>
-<div class="listing-category" onclick="window.quartoListingCategory('RUhS'); return false;">
-EHR
+<div class="listing-category" onclick="window.quartoListingCategory('Time Series'); return false;">
+Time Series
 </div>
-<div class="listing-category" onclick="window.quartoListingCategory('VEJJ'); return false;">
-TBI
+<div class="listing-category" onclick="window.quartoListingCategory('Benchmarking'); return false;">
+Benchmarking
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Out-of-Distribution'); return false;">
+Out-of-Distribution
 </div>
 </div>
+<div class="card-text listing-description">
+<p>A presentation introducing our benchmark suite for evaluating out-of-distribution generalization in time series forecasting models.</p>
 </div>
-<div class="metadata">
-<a href="../talk/2022-04-27-dbei-research-day/index.html" class="no-external">
+<div class="card-attribution card-text-small end">
 <div class="listing-date">
-Apr 27, 2022
+2022-05-22
 </div>
-<div class="listing-author">
-Silvia Canelón, Rebecca Morse, Mary Regina Boland
+</div>
+</div>
 </div>
 </a>
 </div>
-</div>
-<div class="quarto-post image-left" data-index="7" data-categories="cmVzZWFyY2glMkNFSFI=" data-listing-date-sort="1644602400000" data-listing-file-modified-sort="1734483437364" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
-<div class="thumbnail">
-<p><a href="../talk/2022-02-11-tdw-ehr-lessons/index.html" class="no-external"></a></p><a href="../talk/2022-02-11-tdw-ehr-lessons/index.html" class="no-external">
-<p><img loading="lazy" src="../talk/2022-02-11-tdw-ehr-lessons/featured.png" class="thumbnail-image"></p>
-</a><p><a href="../talk/2022-02-11-tdw-ehr-lessons/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../talk/2022-02-11-tdw-ehr-lessons/index.html" class="no-external">Lessons Learned from the EHR</a>
-</h3>
-<div class="listing-subtitle">
-<a href="../talk/2022-02-11-tdw-ehr-lessons/index.html" class="no-external"></a><a href="https://rohanalexander.com/events-tdw.html">Toronto Data Workshop</a> talk about working with Electronic Health Record data
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('cmVzZWFyY2g='); return false;">
-research
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('RUhS'); return false;">
-EHR
-</div>
-</div>
-</div>
-<div class="metadata">
-<a href="../talk/2022-02-11-tdw-ehr-lessons/index.html" class="no-external">
-<div class="listing-date">
-Feb 11, 2022
-</div>
-<div class="listing-author">
-Silvia Canelón
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-left" data-index="8" data-categories="UiUyQ3VzZVIlMkNlZHVjYXRpb24lMkN3b3Jrc2hvcCUyQ3hhcmluZ2Fu" data-listing-date-sort="1625691600000" data-listing-file-modified-sort="1734482437590" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="85">
-<div class="thumbnail">
-<p><a href="../talk/2021-07-07-presentable-user2021/index.html" class="no-external"></a></p><a href="../talk/2021-07-07-presentable-user2021/index.html" class="no-external">
-<p><img loading="lazy" src="../talk/2021-07-07-presentable-user2021/featured.png" class="thumbnail-image"></p>
-</a><p><a href="../talk/2021-07-07-presentable-user2021/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../talk/2021-07-07-presentable-user2021/index.html" class="no-external">Professional, Polished, Presentable: Making Great Slides with xaringan</a>
-</h3>
-<div class="listing-subtitle">
-<a href="../talk/2021-07-07-presentable-user2021/index.html" class="no-external">A useR!2021 tutorial about making great slides with xaringan</a>
+<div class="g-col-1" data-index="9" data-categories="R,useR,education,workshop,xaringan" data-listing-date-sort="1625688000000" data-listing-file-modified-sort="1742964949289" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="85">
+<a href="../talk/2021-07-07-presentable-user2021/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="../talk/2021-07-07-presentable-user2021/featured.png" class="thumbnail-image card-img" style="height: 100%;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Professional, Polished, Presentable: Making Great Slides with xaringan
+</h5>
+<div class="card-subtitle listing-subtitle">
+A useR!2021 tutorial about making great slides with xaringan
 </div>
 <div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('Ug=='); return false;">
+<div class="listing-category" onclick="window.quartoListingCategory('R'); return false;">
 R
 </div>
-<div class="listing-category" onclick="window.quartoListingCategory('dXNlUg=='); return false;">
+<div class="listing-category" onclick="window.quartoListingCategory('useR'); return false;">
 useR
 </div>
-<div class="listing-category" onclick="window.quartoListingCategory('ZWR1Y2F0aW9u'); return false;">
+<div class="listing-category" onclick="window.quartoListingCategory('education'); return false;">
 education
 </div>
-<div class="listing-category" onclick="window.quartoListingCategory('d29ya3Nob3A='); return false;">
+<div class="listing-category" onclick="window.quartoListingCategory('workshop'); return false;">
 workshop
 </div>
-<div class="listing-category" onclick="window.quartoListingCategory('eGFyaW5nYW4='); return false;">
+<div class="listing-category" onclick="window.quartoListingCategory('xaringan'); return false;">
 xaringan
 </div>
 </div>
+<div class="card-text listing-description">
+A <span>useR!2021</span> tutorial about making great slides with xaringan
 </div>
-<div class="metadata">
-<a href="../talk/2021-07-07-presentable-user2021/index.html" class="no-external">
+<div class="card-attribution card-text-small end">
 <div class="listing-date">
-Jul 7, 2021
+2021-07-07
 </div>
-<div class="listing-author">
-Silvia Canelón, Garrick Aden-Buie
+</div>
+</div>
 </div>
 </a>
 </div>
-</div>
-<div class="quarto-post image-left" data-index="9" data-categories="am91cm5hbGlzbSUyQ1IlMkNlZHVjYXRpb24lMkNUaWR5VHVlc2RheSUyQ1RpZHlUdWVzZGF5QWx0VGV4dCUyQ3J0d2VldCUyQ1JTZWxlbml1bSUyQ2RhdGElMjB2aXolMkNhY2Nlc3NpYmlsaXR5" data-listing-date-sort="1620141600000" data-listing-file-modified-sort="1740674278159" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="334">
-<div class="thumbnail">
-<p><a href="../talk/2021-05-04-data-viz-accessibility/index.html" class="no-external"></a></p><a href="../talk/2021-05-04-data-viz-accessibility/index.html" class="no-external">
-<p><img loading="lazy" src="../talk/2021-05-04-data-viz-accessibility/featured.jpg" class="thumbnail-image"></p>
-</a><p><a href="../talk/2021-05-04-data-viz-accessibility/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../talk/2021-05-04-data-viz-accessibility/index.html" class="no-external">Revealing Room for Improvement in Accessibility within a Social Media Data Visualization Learning Community</a>
-</h3>
-<div class="listing-subtitle">
-<a href="../talk/2021-05-04-data-viz-accessibility/index.html" class="no-external">Data visualization accessibility talk to share what we found after scraping alternative (alt) text from data viz shared on Twitter as part of the #TidyTuesday social project.</a>
+<div class="g-col-1" data-index="10" data-categories="R,R-Ladies,education,workshop,xaringan" data-listing-date-sort="1608246000000" data-listing-file-modified-sort="1742964949276" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="59">
+<a href="../talk/2020-12-17-introduccion-xaringan/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="../talk/2020-12-17-introduccion-xaringan/featured.png" class="thumbnail-image card-img" style="height: 100%;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Introducción al Paquete xaringan
+</h5>
+<div class="card-subtitle listing-subtitle">
+Taller del paquete xaringan para presentaciones, creado para R-Ladies Xalapa
 </div>
 <div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('am91cm5hbGlzbQ=='); return false;">
-journalism
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('Ug=='); return false;">
+<div class="listing-category" onclick="window.quartoListingCategory('R'); return false;">
 R
 </div>
-<div class="listing-category" onclick="window.quartoListingCategory('ZWR1Y2F0aW9u'); return false;">
-education
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('VGlkeVR1ZXNkYXk='); return false;">
-TidyTuesday
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('VGlkeVR1ZXNkYXlBbHRUZXh0'); return false;">
-TidyTuesdayAltText
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('cnR3ZWV0'); return false;">
-rtweet
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('UlNlbGVuaXVt'); return false;">
-RSelenium
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('ZGF0YSUyMHZpeg=='); return false;">
-data viz
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('YWNjZXNzaWJpbGl0eQ=='); return false;">
-accessibility
-</div>
-</div>
-</div>
-<div class="metadata">
-<a href="../talk/2021-05-04-data-viz-accessibility/index.html" class="no-external">
-<div class="listing-date">
-May 4, 2021
-</div>
-<div class="listing-author">
-Silvia Canelón, Liz Hare
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-left" data-index="10" data-categories="cmVzZWFyY2glMkNFSFIlMkNwcmVnbmFuY3klMkNzaWNrbGUlMjBjZWxsJTIwZGlzZWFzZSUyQ0FNSUE=" data-listing-date-sort="1616430600000" data-listing-file-modified-sort="1734483317689" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="99">
-<div class="thumbnail">
-<p><a href="../talk/2021-03-23-amia-informatics-summit/index.html" class="no-external"></a></p><a href="../talk/2021-03-23-amia-informatics-summit/index.html" class="no-external">
-<p><img loading="lazy" src="../talk/2021-03-23-amia-informatics-summit/featured.png" class="thumbnail-image"></p>
-</a><p><a href="../talk/2021-03-23-amia-informatics-summit/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../talk/2021-03-23-amia-informatics-summit/index.html" class="no-external">The Impact of Sickle Cell Status on Adverse Delivery Outcomes Using Electronic Health Record Data</a>
-</h3>
-<div class="listing-subtitle">
-<a href="../talk/2021-03-23-amia-informatics-summit/index.html" class="no-external">Applied Clinical Research Informatics: Solving Real World Problems. Oral Presentations S17: March 23, 2021 11:30am-1pm ET</a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('cmVzZWFyY2g='); return false;">
-research
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('RUhS'); return false;">
-EHR
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('cHJlZ25hbmN5'); return false;">
-pregnancy
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('c2lja2xlJTIwY2VsbCUyMGRpc2Vhc2U='); return false;">
-sickle cell disease
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('QU1JQQ=='); return false;">
-AMIA
-</div>
-</div>
-</div>
-<div class="metadata">
-<a href="../talk/2021-03-23-amia-informatics-summit/index.html" class="no-external">
-<div class="listing-date">
-Mar 22, 2021
-</div>
-<div class="listing-author">
-Silvia P. Canelón, Samantha Butts, Mary Regina Boland
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-left" data-index="11" data-categories="UiUyQ1ItTGFkaWVzJTJDZWR1Y2F0aW9uJTJDZGVtbyUyQ3hhcmluZ2Fu" data-listing-date-sort="1615933800000" data-listing-file-modified-sort="1734483252508" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="10">
-<div class="thumbnail">
-<p><a href="../talk/2021-03-16-xaringan-deploy-demo/index.html" class="no-external"></a></p><a href="../talk/2021-03-16-xaringan-deploy-demo/index.html" class="no-external">
-<p><img loading="lazy" src="../talk/2021-03-16-xaringan-deploy-demo/featured.png" class="thumbnail-image"></p>
-</a><p><a href="../talk/2021-03-16-xaringan-deploy-demo/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../talk/2021-03-16-xaringan-deploy-demo/index.html" class="no-external">Writing Presentations in R</a>
-</h3>
-<div class="listing-subtitle">
-<a href="../talk/2021-03-16-xaringan-deploy-demo/index.html" class="no-external">Package demonstration for </a><a href="https://rladiesseattle.org/">R-Ladies Seattle</a> showing how to make beautiful slides with xaringan and how to deploy them.
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('Ug=='); return false;">
-R
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('Ui1MYWRpZXM='); return false;">
+<div class="listing-category" onclick="window.quartoListingCategory('R-Ladies'); return false;">
 R-Ladies
 </div>
-<div class="listing-category" onclick="window.quartoListingCategory('ZWR1Y2F0aW9u'); return false;">
+<div class="listing-category" onclick="window.quartoListingCategory('education'); return false;">
 education
 </div>
-<div class="listing-category" onclick="window.quartoListingCategory('ZGVtbw=='); return false;">
-demo
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('eGFyaW5nYW4='); return false;">
-xaringan
-</div>
-</div>
-</div>
-<div class="metadata">
-<a href="../talk/2021-03-16-xaringan-deploy-demo/index.html" class="no-external">
-<div class="listing-date">
-Mar 16, 2021
-</div>
-<div class="listing-author">
-Silvia Canelón
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-left" data-index="12" data-categories="UiUyQ1ItTGFkaWVzJTJDZWR1Y2F0aW9u" data-listing-date-sort="1613692800000" data-listing-file-modified-sort="1734483349240" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="434">
-<div class="thumbnail">
-<p><a href="../talk/2021-02-18-r-teaching-panel/index.html" class="no-external"></a></p><a href="../talk/2021-02-18-r-teaching-panel/index.html" class="no-external">
-<p><img loading="lazy" src="../talk/2021-02-18-r-teaching-panel/featured.png" class="thumbnail-image"></p>
-</a><p><a href="../talk/2021-02-18-r-teaching-panel/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../talk/2021-02-18-r-teaching-panel/index.html" class="no-external">From Learn-R to Teach-R: An Expert Panel on Effective R Instruction</a>
-</h3>
-<div class="listing-subtitle">
-<a href="../talk/2021-02-18-r-teaching-panel/index.html" class="no-external">An R-Ladies Philly panel and discussion event on R instruction and education.</a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('Ug=='); return false;">
-R
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('Ui1MYWRpZXM='); return false;">
-R-Ladies
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('ZWR1Y2F0aW9u'); return false;">
-education
-</div>
-</div>
-</div>
-<div class="metadata">
-<a href="../talk/2021-02-18-r-teaching-panel/index.html" class="no-external">
-<div class="listing-date">
-Feb 18, 2021
-</div>
-<div class="listing-author">
-Silvia Canelón, Ama Nyame-Mensah, Cass Wilkinson Saldaña
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-left" data-index="13" data-categories="UiUyQ1ItTGFkaWVzJTJDZWR1Y2F0aW9uJTJDd29ya3Nob3AlMkN4YXJpbmdhbg==" data-listing-date-sort="1608249600000" data-listing-file-modified-sort="1734482618753" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="59">
-<div class="thumbnail">
-<p><a href="../talk/2020-12-17-introduccion-xaringan/index.html" class="no-external"></a></p><a href="../talk/2020-12-17-introduccion-xaringan/index.html" class="no-external">
-<p><img loading="lazy" src="../talk/2020-12-17-introduccion-xaringan/featured.png" class="thumbnail-image"></p>
-</a><p><a href="../talk/2020-12-17-introduccion-xaringan/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../talk/2020-12-17-introduccion-xaringan/index.html" class="no-external">Introducción al Paquete xaringan</a>
-</h3>
-<div class="listing-subtitle">
-<a href="../talk/2020-12-17-introduccion-xaringan/index.html" class="no-external">Taller del paquete xaringan para presentaciones, creado para R-Ladies Xalapa</a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('Ug=='); return false;">
-R
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('Ui1MYWRpZXM='); return false;">
-R-Ladies
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('ZWR1Y2F0aW9u'); return false;">
-education
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('d29ya3Nob3A='); return false;">
+<div class="listing-category" onclick="window.quartoListingCategory('workshop'); return false;">
 workshop
 </div>
-<div class="listing-category" onclick="window.quartoListingCategory('eGFyaW5nYW4='); return false;">
+<div class="listing-category" onclick="window.quartoListingCategory('xaringan'); return false;">
 xaringan
 </div>
 </div>
+<div class="card-text listing-description">
+Taller del paquete xaringan para presentaciones,<br>creado para R-Ladies Xalapa
 </div>
-<div class="metadata">
-<a href="../talk/2020-12-17-introduccion-xaringan/index.html" class="no-external">
+<div class="card-attribution card-text-small end">
 <div class="listing-date">
-Dec 17, 2020
+2020-12-17
+</div>
+</div>
+</div>
 </div>
 </a>
 </div>
-</div>
-<div class="quarto-post image-left" data-index="14" data-categories="UiUyQ2VkdWNhdGlvbiUyQ3hhcmluZ2FuJTJDd29ya3Nob3A=" data-listing-date-sort="1604437200000" data-listing-file-modified-sort="1734481882301" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="120">
-<div class="thumbnail">
-<p><a href="../talk/2020-11-03-xaringan-basics-and-beyond/index.html" class="no-external"></a></p><a href="../talk/2020-11-03-xaringan-basics-and-beyond/index.html" class="no-external">
-<p><img loading="lazy" src="../talk/2020-11-03-xaringan-basics-and-beyond/featured.png" class="thumbnail-image"></p>
-</a><p><a href="../talk/2020-11-03-xaringan-basics-and-beyond/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../talk/2020-11-03-xaringan-basics-and-beyond/index.html" class="no-external">Sharing Your Work with xaringan: The Basics and Beyond</a>
-</h3>
-<div class="listing-subtitle">
-<a href="../talk/2020-11-03-xaringan-basics-and-beyond/index.html" class="no-external">An introduction to xaringan for presentations, created for the NHS-R Community 2020 Virtual Conference</a>
+<div class="g-col-1" data-index="11" data-categories="R,education,xaringan,workshop" data-listing-date-sort="1604433600000" data-listing-file-modified-sort="1742964949274" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="120">
+<a href="../talk/2020-11-03-xaringan-basics-and-beyond/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="../talk/2020-11-03-xaringan-basics-and-beyond/featured.png" class="thumbnail-image card-img" style="height: 100%;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Sharing Your Work with xaringan: The Basics and Beyond
+</h5>
+<div class="card-subtitle listing-subtitle">
+An introduction to xaringan for presentations, created for the NHS-R Community 2020 Virtual Conference
 </div>
 <div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('Ug=='); return false;">
+<div class="listing-category" onclick="window.quartoListingCategory('R'); return false;">
 R
 </div>
-<div class="listing-category" onclick="window.quartoListingCategory('ZWR1Y2F0aW9u'); return false;">
+<div class="listing-category" onclick="window.quartoListingCategory('education'); return false;">
 education
 </div>
-<div class="listing-category" onclick="window.quartoListingCategory('eGFyaW5nYW4='); return false;">
+<div class="listing-category" onclick="window.quartoListingCategory('xaringan'); return false;">
 xaringan
 </div>
-<div class="listing-category" onclick="window.quartoListingCategory('d29ya3Nob3A='); return false;">
+<div class="listing-category" onclick="window.quartoListingCategory('workshop'); return false;">
 workshop
 </div>
 </div>
+<div class="card-text listing-description">
+An introduction to xaringan for presentations, created for the <span>NHS-R Community</span> [2020 Virtual…
 </div>
-<div class="metadata">
-<a href="../talk/2020-11-03-xaringan-basics-and-beyond/index.html" class="no-external">
+<div class="card-attribution card-text-small end">
 <div class="listing-date">
-Nov 3, 2020
+2020-11-03
+</div>
+</div>
+</div>
 </div>
 </a>
 </div>
-</div>
-<div class="quarto-post image-left" data-index="15" data-categories="UiUyQ1ItTGFkaWVzJTJDZWR1Y2F0aW9uJTJDdHV0b3JpYWwlMkN3b3Jrc2hvcCUyQ3RpZHl2ZXJzZQ==" data-listing-date-sort="1598913600000" data-listing-file-modified-sort="1734482422452" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="57">
-<div class="thumbnail">
-<p><a href="../talk/2020-08-31-tour-of-the-tidyverse/index.html" class="no-external"></a></p><a href="../talk/2020-08-31-tour-of-the-tidyverse/index.html" class="no-external">
-<p><img loading="lazy" src="../talk/2020-08-31-tour-of-the-tidyverse/featured.jpg" class="thumbnail-image"></p>
-</a><p><a href="../talk/2020-08-31-tour-of-the-tidyverse/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../talk/2020-08-31-tour-of-the-tidyverse/index.html" class="no-external">An Antarctic Tour of the Tidyverse</a>
-</h3>
-<div class="listing-subtitle">
-<a href="../talk/2020-08-31-tour-of-the-tidyverse/index.html" class="no-external">An introductory tidyverse tutorial created and presented for R-Ladies Chicago</a>
+<div class="g-col-1" data-index="12" data-categories="R,R-Ladies,education,tutorial,workshop,tidyverse" data-listing-date-sort="1598910000000" data-listing-file-modified-sort="1742964949270" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="57">
+<a href="../talk/2020-08-31-tour-of-the-tidyverse/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="../talk/2020-08-31-tour-of-the-tidyverse/featured.jpg" class="thumbnail-image card-img" style="height: 100%;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+An Antarctic Tour of the Tidyverse
+</h5>
+<div class="card-subtitle listing-subtitle">
+An introductory tidyverse tutorial created and presented for R-Ladies Chicago
 </div>
 <div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('Ug=='); return false;">
+<div class="listing-category" onclick="window.quartoListingCategory('R'); return false;">
 R
 </div>
-<div class="listing-category" onclick="window.quartoListingCategory('Ui1MYWRpZXM='); return false;">
+<div class="listing-category" onclick="window.quartoListingCategory('R-Ladies'); return false;">
 R-Ladies
 </div>
-<div class="listing-category" onclick="window.quartoListingCategory('ZWR1Y2F0aW9u'); return false;">
+<div class="listing-category" onclick="window.quartoListingCategory('education'); return false;">
 education
 </div>
-<div class="listing-category" onclick="window.quartoListingCategory('dHV0b3JpYWw='); return false;">
+<div class="listing-category" onclick="window.quartoListingCategory('tutorial'); return false;">
 tutorial
 </div>
-<div class="listing-category" onclick="window.quartoListingCategory('d29ya3Nob3A='); return false;">
+<div class="listing-category" onclick="window.quartoListingCategory('workshop'); return false;">
 workshop
 </div>
-<div class="listing-category" onclick="window.quartoListingCategory('dGlkeXZlcnNl'); return false;">
+<div class="listing-category" onclick="window.quartoListingCategory('tidyverse'); return false;">
 tidyverse
 </div>
 </div>
+<div class="card-text listing-description">
+An introductory tidyverse tutorial created and presented for <span>R-Ladies Chicago</span>
 </div>
-<div class="metadata">
-<a href="../talk/2020-08-31-tour-of-the-tidyverse/index.html" class="no-external">
+<div class="card-attribution card-text-small end">
 <div class="listing-date">
-Aug 31, 2020
+2020-08-31
+</div>
+</div>
+</div>
 </div>
 </a>
-</div>
 </div>
 </div>
 <div class="listing-no-matching d-none">
 No matching items
 </div>
-</div><a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
+</div>
+
+
+
+</section>
+
+<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -1041,7 +952,18 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
     return false;
   }
-  const onCopySuccess = function(e) {
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
     // button target
     const button = e.trigger;
     // don't keep focus
@@ -1073,45 +995,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }, 1000);
     // clear code selection
     e.clearSelection();
-  }
-  const getTextToCopy = function(trigger) {
-      const codeEl = trigger.previousElementSibling.cloneNode(true);
-      for (const childEl of codeEl.children) {
-        if (isCodeAnnotation(childEl)) {
-          childEl.remove();
-        }
-      }
-      return codeEl.innerText;
-  }
-  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
-    text: getTextToCopy
   });
-  clipboard.on('success', onCopySuccess);
-  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
-    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
-      text: getTextToCopy,
-      container: window.document.getElementById('quarto-embedded-source-code-modal')
-    });
-    clipboardModal.on('success', onCopySuccess);
-  }
-    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
-    var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp("https:\/\/silviacanelon\.com");
-    var isInternal = (href) => {
-        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
-    }
-    // Inspect non-navigation links and adorn them if external
- 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
-    for (var i=0; i<links.length; i++) {
-      const link = links[i];
-      if (!isInternal(link.href)) {
-        // undo the damage that might have been done by quarto-nav.js in the case of
-        // links that we want to consider external
-        if (link.dataset.originalHref !== undefined) {
-          link.href = link.dataset.originalHref;
-        }
-      }
-    }
   function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
     const config = {
       allowHTML: true,
@@ -1146,11 +1030,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       try { href = new URL(href).hash; } catch {}
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
-      if (note) {
-        return note.innerHTML;
-      } else {
-        return "";
-      }
+      return note.innerHTML;
     });
   }
   const xrefs = window.document.querySelectorAll('a.quarto-xref');
@@ -1198,6 +1078,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       if (window.Quarto?.typesetMath) {
         window.Quarto.typesetMath(note);
       }
+      // TODO in 1.5, we should make sure this works without a callout special case
       if (note.classList.contains("callout")) {
         return note.outerHTML;
       } else {
@@ -1423,16 +1304,16 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
 });
 </script>
-<script src="https://utteranc.es/client.js" repo="spcanelon/silvia" issue-term="title" theme="body-light" crossorigin="anonymous" async="">
+<script src="https://utteranc.es/client.js" repo="vincehass/nadhir" issue-term="title" theme="body-light" crossorigin="anonymous" async="">
 </script>
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">
-<p>© 2024 Silvia Canelón ∙ Made with <a href="https://quarto.org">Quarto</a></p>
+<p>© 2024 Nadhir Vincent Hass ∙ Made with <a href="https://quarto.org">Quarto</a></p>
 </div>   
     <div class="nav-footer-center">
-<p><a class="link-dark me-1" href="../accessibility.html" title="Accessibility commitment" target="_blank" rel="noopener"><i class="fa-solid fa-universal-access" aria-label="universal-access"></i></a> <a class="link-dark me-1" href="https://bsky.app/profile/silviacanelon.com" title="Bluesky" target="_blank" rel="noopener"><i class="fa-brands fa-bluesky" aria-label="bluesky"></i></a> <a class="link-dark me-1" href="https://linkedin.com/in/spcanelon" title="LinkedIn" target="_blank" rel="noopener"><i class="fa-brands fa-linkedin" aria-label="linkedin"></i></a> <a class="link-dark me-1" href="https://github.com/spcanelon" title="github" target="_blank" rel="noopener"><i class="fa-brands fa-github" aria-label="github"></i></a> <a class="link-dark me-1" href="https://orcid.org/0000-0003-1709-1394" title="orcid" target="_blank" rel="noopener"><i class="ai  ai-orcid"></i></a> <a class="link-dark me-1" href="https://scholar.google.com/citations?user=GAzkvpcAAAAJ&amp;hl=en&amp;oi=ao" title="Google Scholar" target="_blank" rel="noopener"><i class="ai  ai-google-scholar"></i></a> <a class="link-dark me-1" href="https://buttondown.com/spcanelon" title="Newsletter" target="_blank" rel="noopener"><i class="fa-solid fa-envelope" aria-label="envelope"></i></a></p>
+<p><a class="link-dark me-1" href="../accessibility.html" title="Accessibility commitment" target="_blank" rel="noopener"><i class="fa-solid fa-universal-access" aria-label="universal-access"></i></a> <a class="link-dark me-1" href="https://linkedin.com/in/nadhir-vincent-hass-216391aa" title="LinkedIn" target="_blank" rel="noopener"><i class="fa-brands fa-linkedin" aria-label="linkedin"></i></a> <a class="link-dark me-1" href="https://github.com/vincehass" title="github" target="_blank" rel="noopener"><i class="fa-brands fa-github" aria-label="github"></i></a> <a class="link-dark me-1" href="https://orcid.org/0000-0000-0000-0000" title="orcid" target="_blank" rel="noopener"><i class="ai  ai-orcid"></i></a> <a class="link-dark me-1" href="https://scholar.google.com/citations?user=RVK0V44AAAAJ&amp;hl=en" title="Google Scholar" target="_blank" rel="noopener"><i class="ai  ai-google-scholar"></i></a> <a class="link-dark me-1" href="mailto:nadhir@example.com" title="Email" target="_blank" rel="noopener"><i class="fa-solid fa-envelope" aria-label="envelope"></i></a></p>
 </div>
     <div class="nav-footer-right">
       <ul class="footer-items list-unstyled">

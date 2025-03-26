@@ -2,11 +2,11 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.6.39">
+<meta name="generator" content="quarto-1.4.550">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 <meta name="author" content="Silvia Canelón">
 <meta name="dcterms.date" content="2023-09-29">
-<title>Hello Quarto: Porting my Website from Hugo Apéro – Silvia Canelón</title>
+<title>Hello Quarto: Porting my Website from Hugo Apéro</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -32,7 +32,7 @@ div.sourceCode { overflow: auto; }
 }
 @media print {
 pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
 }
 pre.numberSource code
   { counter-reset: source-line 0; }
@@ -62,18 +62,18 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <script src="../../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../../">
-<link href="../../assets/silvia/img/logo_rounded.svg" rel="icon" type="image/svg+xml">
+<link href="../../assets/nadhir/img/logo_rounded.svg" rel="icon" type="image/svg+xml">
 <script src="../../site_libs/quarto-html/quarto.js"></script>
 <script src="../../site_libs/quarto-html/popper.min.js"></script>
 <script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-4798f49a90c852830ec6262f6cac104c.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark-ba45ce9dc5cd1a65c393561f93ac8f81.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap-ee1fb94ed73a03fd99aafc7557ba3b54.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../../site_libs/bootstrap/bootstrap-dark-b46977b051dc0d7981d6964f332a6c3e.min.css" rel="prefetch" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
 <link href="../../site_libs/quarto-contrib/fontawesome6-1.2.0/all.min.css" rel="stylesheet">
 <link href="../../site_libs/quarto-contrib/fontawesome6-1.2.0/latex-fontsize.css" rel="stylesheet">
 <link href="../../site_libs/quarto-contrib/academicons-1.9.2/all.css" rel="stylesheet">
@@ -106,14 +106,13 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     "search-submit-button-title": "Submit",
     "search-label": "Search"
   }
-}</script><!-- umami cloud --><script async="" src="https://analytics.umami.is/script.js" data-website-id="6ba73b87-31aa-44ac-8d5e-e0dad5760753" data-do-not-track="true">
-</script><link href="../../site_libs/pagedtable-1.1/css/pagedtable.css" rel="stylesheet">
+}</script><!-- Umami Analytics --><!-- Replace this with your actual Umami script when ready to deploy --><script async="" defer="" data-website-id="place-your-website-id-here" src="https://analytics.example.com/umami.js"></script><link href="../../site_libs/pagedtable-1.1/css/pagedtable.css" rel="stylesheet">
 <script src="../../site_libs/pagedtable-1.1/js/pagedtable.js"></script>
 <meta name="twitter:title" content="Hello Quarto: Porting my Website from Hugo Apéro">
 <meta name="twitter:description" content="Notes from porting my personal Blogdown website to Quarto">
-<meta name="twitter:image" content="https://silviacanelon.com/blog/2023-09-29-hello-quarto/featured.jpg">
-<meta name="twitter:creator" content="@spcanelon">
-<meta name="twitter:site" content="@spcanelon">
+<meta name="twitter:image" content="https://nadhirvincent.com/blog/2023-09-29-hello-quarto/featured.jpg">
+<meta name="twitter:creator" content="@nadhirvincent">
+<meta name="twitter:site" content="@nadhirvincent">
 <meta name="twitter:card" content="summary_large_image">
 </head>
 <body class="nav-fixed">
@@ -121,14 +120,14 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top quarto-banner"><nav class="navbar navbar-expand-lg " data-bs-theme="dark"><div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a href="../../index.html" class="navbar-brand navbar-brand-logo">
-    <img src="../../assets/silvia/img/logo_rounded.svg" alt="" class="navbar-logo"></a>
-    <a class="navbar-brand" href="../../index.html">
-    <span class="navbar-title">Silvia Canelón</span>
+    <a href="../../" class="navbar-brand navbar-brand-logo">
+    <img src="../../assets/nadhir/img/logo_rounded.svg" alt="" class="navbar-logo"></a>
+    <a class="navbar-brand" href="../../">
+    <span class="navbar-title">Nadhir Vincent Hass</span>
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
@@ -155,8 +154,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   </li>  
 </ul>
 </div> <!-- /navcollapse -->
-            <div class="quarto-navbar-tools">
-    <a href="https://www.github.com/spcanelon/silvia" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-github"></i></a>
+          <div class="quarto-navbar-tools">
+    <a href="https://www.github.com/vincehass" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-github"></i></a>
   <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
 </div>
       </div> <!-- /container-fluid -->
@@ -353,16 +352,16 @@ CSS tip
 <div class="code-with-filename-file">
 <pre><strong>assets/about.css</strong></pre>
 </div>
-<div class="sourceCode" id="cb3" data-filename="assets/about.css" data-startfrom="63"><pre class="sourceCode css code-with-copy"><code class="sourceCode css" style="counter-reset: source-line 62;"><span id="cb3-63"><a href="#cb3-63" aria-hidden="true" tabindex="-1"></a>  <span class="co">/* wrap lately section */</span></span>
-<span id="cb3-64"><a href="#cb3-64" aria-hidden="true" tabindex="-1"></a>  <span class="pp">#lately</span> <span class="fu">.grid</span> {</span>
-<span id="cb3-65"><a href="#cb3-65" aria-hidden="true" tabindex="-1"></a>    <span class="kw">display</span><span class="ch">:</span> <span class="dv">flex</span><span class="op">;</span></span>
-<span id="cb3-66"><a href="#cb3-66" aria-hidden="true" tabindex="-1"></a>    <span class="kw">flex-wrap</span><span class="ch">:</span> <span class="dv">wrap</span><span class="op">;</span></span>
-<span id="cb3-67"><a href="#cb3-67" aria-hidden="true" tabindex="-1"></a>  }</span>
-<span id="cb3-68"><a href="#cb3-68" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb3-69"><a href="#cb3-69" aria-hidden="true" tabindex="-1"></a>  <span class="co">/* listings */</span></span>
-<span id="cb3-70"><a href="#cb3-70" aria-hidden="true" tabindex="-1"></a>  <span class="pp">#blog</span><span class="op">,</span> <span class="pp">#talks</span><span class="op">,</span> <span class="pp">#publications</span><span class="op">,</span> <span class="pp">#projects</span> {</span>
-<span id="cb3-71"><a href="#cb3-71" aria-hidden="true" tabindex="-1"></a>    <span class="kw">flex-basis</span><span class="ch">:</span> <span class="dv">100</span><span class="dt">%</span> <span class="at">!important</span><span class="op">;</span></span>
-<span id="cb3-72"><a href="#cb3-72" aria-hidden="true" tabindex="-1"></a>  }</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb3" data-filename="assets/about.css" data-startfrom="63"><pre class="sourceCode css code-with-copy"><code class="sourceCode css" style="counter-reset: source-line 62;"><span id="cb3-63"><a href="#cb3-63" aria-hidden="true" tabindex="-1"></a>  }</span>
+<span id="cb3-64"><a href="#cb3-64" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-65"><a href="#cb3-65" aria-hidden="true" tabindex="-1"></a>  <span class="co">/* wrap lately section */</span></span>
+<span id="cb3-66"><a href="#cb3-66" aria-hidden="true" tabindex="-1"></a>  <span class="pp">#lately</span> <span class="fu">.grid</span> {</span>
+<span id="cb3-67"><a href="#cb3-67" aria-hidden="true" tabindex="-1"></a>    <span class="kw">display</span><span class="ch">:</span> <span class="dv">flex</span><span class="op">;</span></span>
+<span id="cb3-68"><a href="#cb3-68" aria-hidden="true" tabindex="-1"></a>    <span class="kw">flex-wrap</span><span class="ch">:</span> <span class="dv">wrap</span><span class="op">;</span></span>
+<span id="cb3-69"><a href="#cb3-69" aria-hidden="true" tabindex="-1"></a>  }</span>
+<span id="cb3-70"><a href="#cb3-70" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-71"><a href="#cb3-71" aria-hidden="true" tabindex="-1"></a>  <span class="co">/* listings */</span></span>
+<span id="cb3-72"><a href="#cb3-72" aria-hidden="true" tabindex="-1"></a>  <span class="pp">#blog</span><span class="op">,</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <p><a href="https://github.com/spcanelon/silvia/blob/32853dd0e70a71514b0922ee306f80ed5897f776/assets/about.css#L63-L72"><i class="fa-solid fa-code-branch" title="Git" aria-label="code-branch"></i> source code</a></p>
 </div>
@@ -541,9 +540,9 @@ Bones of the contact page
 <pre><strong>index.qmd</strong></pre>
 </div>
 <div class="sourceCode" id="cb11" data-filename="index.qmd" data-startfrom="42"><pre class="sourceCode numberSource yml number-lines code-with-copy"><code class="sourceCode yaml" style="counter-reset: source-line 41;"><span id="cb11-42"><a href="#cb11-42"></a></span>
-<span id="cb11-43"><a href="#cb11-43"></a><span class="fu">execute</span><span class="kw">:</span><span class="at"> </span></span>
-<span id="cb11-44"><a href="#cb11-44"></a><span class="at">  </span><span class="fu">freeze</span><span class="kw">:</span><span class="at"> </span><span class="ch">false</span></span>
-<span id="cb11-45"><a href="#cb11-45"></a><span class="at">  </span><span class="fu">echo</span><span class="kw">:</span><span class="at"> </span><span class="ch">false</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb11-43"><a href="#cb11-43"></a><span class="fu">header-includes</span><span class="kw">: </span><span class="ch">&gt;</span></span>
+<span id="cb11-44"><a href="#cb11-44"></a>  &lt;link rel="stylesheet" href="assets/index.css"&gt;</span>
+<span id="cb11-45"><a href="#cb11-45"></a><span class="fu">resources</span><span class="kw">:</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <ul>
 <li>
@@ -745,7 +744,7 @@ Example warning
 <li id="fn6"><p>Don’t skip this step! People will almost certainly have shared one or more of your posts somewhere on the internet, and it helps everyone if you can point them to the right spot<a href="#fnref6" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
 </ol></section><section class="quarto-appendix-contents" id="quarto-reuse"><h2 class="anchored quarto-appendix-heading">Reuse</h2><div class="quarto-appendix-contents"><div><a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a></div></div></section><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-canelón2023" class="csl-entry quarto-appendix-citeas" role="listitem">
 Canelón, Silvia. 2023. <span>“Hello Quarto: Porting My Website from Hugo
-Apéro.”</span> September 29, 2023. <a href="https://silviacanelon.com/blog/2023-09-29-hello-quarto/">https://silviacanelon.com/blog/2023-09-29-hello-quarto/</a>.
+Apéro.”</span> September 29, 2023. <a href="https://nadhirvincent.com/blog/2023-09-29-hello-quarto">https://nadhirvincent.com/blog/2023-09-29-hello-quarto</a>.
 </div></div></section></div></main><!-- /main --><script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -925,7 +924,18 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
     return false;
   }
-  const onCopySuccess = function(e) {
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
     // button target
     const button = e.trigger;
     // don't keep focus
@@ -957,45 +967,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }, 1000);
     // clear code selection
     e.clearSelection();
-  }
-  const getTextToCopy = function(trigger) {
-      const codeEl = trigger.previousElementSibling.cloneNode(true);
-      for (const childEl of codeEl.children) {
-        if (isCodeAnnotation(childEl)) {
-          childEl.remove();
-        }
-      }
-      return codeEl.innerText;
-  }
-  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
-    text: getTextToCopy
   });
-  clipboard.on('success', onCopySuccess);
-  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
-    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
-      text: getTextToCopy,
-      container: window.document.getElementById('quarto-embedded-source-code-modal')
-    });
-    clipboardModal.on('success', onCopySuccess);
-  }
-    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
-    var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp("https:\/\/silviacanelon\.com");
-    var isInternal = (href) => {
-        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
-    }
-    // Inspect non-navigation links and adorn them if external
- 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
-    for (var i=0; i<links.length; i++) {
-      const link = links[i];
-      if (!isInternal(link.href)) {
-        // undo the damage that might have been done by quarto-nav.js in the case of
-        // links that we want to consider external
-        if (link.dataset.originalHref !== undefined) {
-          link.href = link.dataset.originalHref;
-        }
-      }
-    }
   function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
     const config = {
       allowHTML: true,
@@ -1030,11 +1002,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       try { href = new URL(href).hash; } catch {}
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
-      if (note) {
-        return note.innerHTML;
-      } else {
-        return "";
-      }
+      return note.innerHTML;
     });
   }
   const xrefs = window.document.querySelectorAll('a.quarto-xref');
@@ -1082,6 +1050,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       if (window.Quarto?.typesetMath) {
         window.Quarto.typesetMath(note);
       }
+      // TODO in 1.5, we should make sure this works without a callout special case
       if (note.classList.contains("callout")) {
         return note.outerHTML;
       } else {
@@ -1311,10 +1280,10 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </div> <!-- /content -->
 <footer class="footer"><div class="nav-footer">
     <div class="nav-footer-left">
-<p>© 2024 Silvia Canelón ∙ Made with <a href="https://quarto.org">Quarto</a></p>
+<p>© 2024 Nadhir Vincent Hass ∙ Made with <a href="https://quarto.org">Quarto</a></p>
 </div>   
     <div class="nav-footer-center">
-<p><a class="link-dark me-1" href="../../accessibility.html" title="Accessibility commitment" target="_blank" rel="noopener"><i class="fa-solid fa-universal-access" aria-label="universal-access"></i></a> <a class="link-dark me-1" href="https://bsky.app/profile/silviacanelon.com" title="Bluesky" target="_blank" rel="noopener"><i class="fa-brands fa-bluesky" aria-label="bluesky"></i></a> <a class="link-dark me-1" href="https://linkedin.com/in/spcanelon" title="LinkedIn" target="_blank" rel="noopener"><i class="fa-brands fa-linkedin" aria-label="linkedin"></i></a> <a class="link-dark me-1" href="https://github.com/spcanelon" title="github" target="_blank" rel="noopener"><i class="fa-brands fa-github" aria-label="github"></i></a> <a class="link-dark me-1" href="https://orcid.org/0000-0003-1709-1394" title="orcid" target="_blank" rel="noopener"><i class="ai  ai-orcid"></i></a> <a class="link-dark me-1" href="https://scholar.google.com/citations?user=GAzkvpcAAAAJ&amp;hl=en&amp;oi=ao" title="Google Scholar" target="_blank" rel="noopener"><i class="ai  ai-google-scholar"></i></a> <a class="link-dark me-1" href="https://buttondown.com/spcanelon" title="Newsletter" target="_blank" rel="noopener"><i class="fa-solid fa-envelope" aria-label="envelope"></i></a></p>
+<p><a class="link-dark me-1" href="../../accessibility.html" title="Accessibility commitment" target="_blank" rel="noopener"><i class="fa-solid fa-universal-access" aria-label="universal-access"></i></a> <a class="link-dark me-1" href="https://linkedin.com/in/nadhir-vincent-hass-216391aa" title="LinkedIn" target="_blank" rel="noopener"><i class="fa-brands fa-linkedin" aria-label="linkedin"></i></a> <a class="link-dark me-1" href="https://github.com/vincehass" title="github" target="_blank" rel="noopener"><i class="fa-brands fa-github" aria-label="github"></i></a> <a class="link-dark me-1" href="https://orcid.org/0000-0000-0000-0000" title="orcid" target="_blank" rel="noopener"><i class="ai  ai-orcid"></i></a> <a class="link-dark me-1" href="https://scholar.google.com/citations?user=RVK0V44AAAAJ&amp;hl=en" title="Google Scholar" target="_blank" rel="noopener"><i class="ai  ai-google-scholar"></i></a> <a class="link-dark me-1" href="mailto:nadhir@example.com" title="Email" target="_blank" rel="noopener"><i class="fa-solid fa-envelope" aria-label="envelope"></i></a></p>
 </div>
     <div class="nav-footer-right">
       <ul class="footer-items list-unstyled">
@@ -1342,37 +1311,30 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </ul>
 </div>
   </div>
-</footer><script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","descPosition":"bottom","loop":false,"openEffect":"zoom","selector":".lightbox"});
-(function() {
-  let previousOnload = window.onload;
-  window.onload = () => {
-    if (previousOnload) {
-      previousOnload();
-    }
-    lightboxQuarto.on('slide_before_load', (data) => {
-      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
-      const href = trigger.getAttribute('href');
-      if (href !== null) {
-        const imgEl = window.document.querySelector(`a[href="${href}"] img`);
-        if (imgEl !== null) {
-          const srcAttr = imgEl.getAttribute("src");
-          if (srcAttr && srcAttr.startsWith("data:")) {
-            slideConfig.href = srcAttr;
-          }
+</footer><script>var lightboxQuarto = GLightbox({"openEffect":"zoom","closeEffect":"zoom","descPosition":"bottom","selector":".lightbox","loop":false});
+window.onload = () => {
+  lightboxQuarto.on('slide_before_load', (data) => {
+    const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+    const href = trigger.getAttribute('href');
+    if (href !== null) {
+      const imgEl = window.document.querySelector(`a[href="${href}"] img`);
+      if (imgEl !== null) {
+        const srcAttr = imgEl.getAttribute("src");
+        if (srcAttr && srcAttr.startsWith("data:")) {
+          slideConfig.href = srcAttr;
         }
-      } 
-    });
-  
-    lightboxQuarto.on('slide_after_load', (data) => {
-      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
-      if (window.Quarto?.typesetMath) {
-        window.Quarto.typesetMath(slideNode);
       }
-    });
-  
-  };
-  
-})();
+    } 
+  });
+
+  lightboxQuarto.on('slide_after_load', (data) => {
+    const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+    if (window.Quarto?.typesetMath) {
+      window.Quarto.typesetMath(slideNode);
+    }
+  });
+
+};
           </script>
 
 

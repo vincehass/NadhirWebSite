@@ -1,0 +1,71 @@
+---
+title: "Efficient ML Model Tuning with Bayesian Optimization"
+subtitle: "Industry Talk at ML Summit 2023"
+description: |
+  A practical presentation for industry practitioners on implementing Bayesian optimization techniques for efficient hyperparameter tuning.
+date: 2023-11-15
+categories:
+  - Industry
+  - Bayesian Optimization
+  - Hyperparameter Tuning
+  - Practical Applications
+image: featured.jpg
+image-alt: "Presenter giving an industry talk on Bayesian optimization techniques"
+---
+
+## Presentation Overview
+
+In this industry-focused talk at ML Summit 2023, I presented practical approaches to implementing Bayesian optimization for efficient hyperparameter tuning in machine learning workflows.
+
+## Abstract
+
+Machine learning practitioners face the challenge of tuning hyperparameters efficiently, especially as models grow larger and more complex. Traditional methods like grid search and random search become prohibitively expensive, while manual tuning requires significant expertise and time.
+
+In this talk, I demonstrated how Bayesian optimization can dramatically reduce the computational cost of hyperparameter tuning while achieving superior results. I presented practical implementations using popular libraries and shared best practices based on our research and real-world experience applying these techniques in industry settings.
+
+The presentation included case studies showing how multi-fidelity Bayesian optimization techniques can further accelerate the tuning process, making it accessible even for organizations with limited computational resources.
+
+## Key Points Covered
+
+- Fundamentals of Bayesian optimization for non-mathematicians
+- Implementation using popular Python libraries (scikit-optimize, Hyperopt, Optuna)
+- Multi-fidelity techniques for further efficiency gains
+- Integration into ML workflows and CI/CD pipelines
+- Case studies showing 10-100x speedups over traditional methods
+- Common pitfalls and how to avoid them
+- Scaling to distributed environments
+
+## Industry Applications
+
+The talk highlighted applications across various industries:
+
+- **Financial services**: Tuning fraud detection models with strict latency requirements
+- **Healthcare**: Optimizing medical image classification with limited data
+- **Retail**: Efficiently tuning recommendation systems with millions of parameters
+- **Manufacturing**: Real-time optimization of predictive maintenance models
+
+## Slides and Materials
+
+- [Presentation Slides (PDF)](#)
+- [Code Repository with Examples](https://github.com/vincehass/bayesian-optimization-examples)
+- [Tutorial Notebook](https://github.com/vincehass/bayesian-optimization-examples/blob/main/tutorial.ipynb)
+
+## Audience Feedback
+
+The presentation was well-received by the industry audience, with particular interest in:
+
+1. The practical implementation examples that could be immediately applied
+2. Multi-fidelity approaches for large models
+3. Integration with existing ML development pipelines
+
+## Related Resources
+
+For those interested in learning more about Bayesian optimization, I recommended these resources:
+
+- [Practical Bayesian Optimization of Machine Learning Algorithms](https://arxiv.org/abs/1206.2944) by Snoek et al.
+- [A Tutorial on Bayesian Optimization](https://arxiv.org/abs/1807.02811) by Frazier
+- [Approximate Bayesian Optimisation for Neural Networks](https://arxiv.org/abs/2108.12461) by Hass & Rish
+
+## Contact Information
+
+For workshop participants who wanted to discuss implementing these techniques in their organizations, I provided contact information and offered follow-up consultations. 

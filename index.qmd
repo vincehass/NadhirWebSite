@@ -1,15 +1,15 @@
 ---
-title: "Silvia Canelón, PhD"
-pagetitle: "Silvia Canelón, PhD"
-subtitle: "Data Scientist at the University of Pennsylvania"
-image: assets/silvia/img/skyline-philly-dual.png
-image-alt: "Abstract data visualization depicting tall buildings in Philadelphia as a circle. The text inside the circle reads Philadelphia Skyline"
+title: "Nadhir Vincent Hass, PhD"
+pagetitle: "Nadhir Vincent Hass, PhD"
+subtitle: "Data Scientist & Machine Learning Engineer"
+image: assets/nadhir/img/profile-banner.png
+image-alt: "Blue abstract data visualization representing machine learning and AI concepts"
 
 twitter-card:
-    title: Silvia Canelón, PhD
+    title: Nadhir Vincent Hass, PhD
     description: |
-      Researcher, educator, and journalist with data science expertise.
-    image: assets/silvia/img/silvia-social.png
+      Data Scientist and Machine Learning Engineer with expertise in ML, AI, Computer Vision, and Cloud Computing.
+    image: assets/nadhir/img/nadhir-social.png
 
 about:
   template: solana
@@ -19,25 +19,20 @@ about:
     - text: "{{< fa universal-access >}}"
       aria-label: "Accessibility statement"
       href: accessibility.qmd
-    - text: "{{< fa brands bluesky >}}"
-      aria-label: "Bluesky"
-      href: https://bsky.app/profile/silviacanelon.com
     - icon: linkedin
       aria-label: "LinkedIn"
-      href: https://linkedin.com/in/spcanelon
+      href: https://linkedin.com/in/nadhir-vincent-hass-216391aa
     - icon: github
       aria-label: GitHub
-      href: https://github.com/spcanelon
-    # - icon: mastodon
-    #   href: https://hachyderm.io/@spcanelon
+      href: https://github.com/vincehass
     - text: "{{< ai orcid >}}"
-      href: https://orcid.org/0000-0003-1709-1394
+      href: https://orcid.org/0000-0000-0000-0000
     - text: "{{< ai google-scholar >}}"
       aria-label: "Google Scholar"
-      href: https://scholar.google.com/citations?user=GAzkvpcAAAAJ&hl=en&oi=ao
+      href: https://scholar.google.com/citations?user=RVK0V44AAAAJ&hl=en
     - text: "{{< fa envelope >}}"
-      aria-label: Newsletter
-      href: https://buttondown.com/spcanelon
+      aria-label: Email
+      href: mailto:nadhir@example.com
 page-layout: full
 
 execute: 
@@ -56,9 +51,9 @@ resources:
 
 ::: {#hero-heading}
 
-I am a researcher, R educator, and data journalist with a love for community. My **research** leverages electronic health record and spatial data to study the intersection of health equity and urban nature. My **journalism** and **community** projects value the partnership between open source tools and data literacy as a way to build power and effect change.
+I am a Data Scientist and Machine Learning Engineer with expertise in developing innovative solutions using advanced AI techniques. My research focuses on machine learning, deep learning, computer vision, and cloud computing applications. I specialize in creating efficient, scalable models that solve complex real-world problems across various domains.
 
-[Learn more about me &rarr;](/about){.about-links .subtitle}
+[Learn more about me &rarr;](/about/){.about-links .subtitle}
 
 :::
 <!-- hero-heading -->
